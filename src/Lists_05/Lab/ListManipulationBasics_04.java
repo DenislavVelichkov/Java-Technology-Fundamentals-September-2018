@@ -14,7 +14,6 @@ public class ListManipulationBasics_04 {
         List<Integer> numbers = Arrays.stream(scan.nextLine().split(" "))
                 .map(Integer::parseInt)
                 .collect(Collectors.toList());
-//Judge 84/100 Why ?!
         while (true) {
             String command = scan.nextLine().toLowerCase();
 
@@ -31,7 +30,8 @@ public class ListManipulationBasics_04 {
                     break;
                 case "remove":
                     int numberToRemove = Integer.parseInt(tokens[1]);
-                    numbers.remove(Integer.valueOf(numberToRemove)); // If you want to remove number as object, use Integer.valueOf();
+                    numbers.remove(Integer.valueOf(numberToRemove));
+                    // If you want to remove number as object, use Integer.valueOf();
                     break;
                 case "removeat":
                     int indexToRemove = Integer.parseInt(tokens[1]);
