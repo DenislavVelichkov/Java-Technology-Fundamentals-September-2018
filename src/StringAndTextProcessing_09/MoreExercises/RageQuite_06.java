@@ -1,51 +1,50 @@
 package StringAndTextProcessing_09.MoreExercises;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class RageQuite_06 {
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        String line = sc.nextLine().toUpperCase();
+        String line = reader.readLine().toUpperCase();
 
-        System.out.printf("Unique symbols used: %d%n", checkUniqueSymbols(line));
-        printText(line);
-    }
+        List<String> temp = Arrays.asList(line.split("\\d+"));
+        ArrayList<String> arrayToModify = new ArrayList<>(temp);
 
-    private static void printText(String line) {
-        for (int i = 0; i < line.length(); i++) {
+        Pattern digitPattern = Pattern.compile("\\d+");
+        Matcher matcher = digitPattern.matcher(line);
+
+        StringBuilder buffer = new StringBuilder();
+        long sum;
+
+        while (arrayToModify.size() > 0) {
+            for (int i = 0; i < arrayToModify.size(); i++) {
                 int repeat = 0;
                 String strToRepeat = "";
-                String sequenceToRemove = "";
 
-            if (Character.isDigit(line.charAt(i))) {
-                repeat = Integer.parseInt(String.valueOf(line.charAt(i)));
-                strToRepeat = line.substring(0, i);
+                strToRepeat += arrayToModify.get(i);
 
-                while (repeat-- > 0) {
-                    System.out.printf("%s", strToRepeat);
+                if (matcher.find()) {
+                    repeat = Integer.parseInt(matcher.group());
                 }
 
-                sequenceToRemove = strToRepeat + line.charAt(i);
-                line = line.replace(sequenceToRemove, "");
-                i = 0;
-            }
-        }
-    }
+                while (repeat-- > 0) {
+                    buffer.append(strToRepeat);
+                }
 
-    private static int checkUniqueSymbols(String line) {
-        int count = line.length();
-        List<String> symbols = Arrays.asList(line.split(""));
-
-        for (int i = 0; i < symbols.size(); i++) {
-            if ((symbols.contains(symbols.get(i))) && (!Character.isDigit(symbols.get(i).charAt(0)))) {
-                count -= 1;
+                arrayToModify.remove(strToRepeat);
+                i = -1;
             }
         }
 
-        return count;
+        sum = buffer.chars().distinct().count();
+        System.out.printf("Unique symbols used: %d%n", sum);
+        System.out.print(buffer);
     }
 }
