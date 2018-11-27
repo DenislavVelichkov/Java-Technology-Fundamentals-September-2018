@@ -2,7 +2,7 @@ package StringAndTextProcessing_09.MoreExercises;
 
 import java.util.*;
 
-public class HTML {
+public class HTML_05 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
