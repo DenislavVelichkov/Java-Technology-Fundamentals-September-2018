@@ -7,13 +7,11 @@ import java.util.Scanner;
 public class QuestsJournal_03 {
 
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
         String line = sc.nextLine();
         String[] inputJournal = line.split(", ");
         ArrayList<String> journal = new ArrayList<>(Arrays.asList(inputJournal));
-
 
         while (true) {
             String cmd = sc.nextLine();
@@ -30,6 +28,7 @@ public class QuestsJournal_03 {
                     } else {
                         continue;
                     }
+
                     break;
                 case "Complete":
                     journal.remove(journalPeace);
@@ -37,7 +36,8 @@ public class QuestsJournal_03 {
                 case "Side Quest":
                     String[] newCommand = command[1].split(":");
 
-                    if ((journal.contains(newCommand[0])) && (!journal.contains(newCommand[1]))) {
+                    if ((journal.contains(newCommand[0])) &&
+                            (!journal.contains(newCommand[1]))) {
                         int index = journal.indexOf(newCommand[0]);
                         journal.add(index + 1, newCommand[1]);
                     }
