@@ -26,6 +26,7 @@ public class DungeonestDark_02 {
                     } else {
                         initialHealth += number;
                     }
+
                     System.out.printf("You healed for %d hp.%n", number);
                     System.out.printf("Current health: %d hp.%n", initialHealth);
                     break;
@@ -35,6 +36,7 @@ public class DungeonestDark_02 {
                     break;
                 default:
                     initialHealth -= number;
+
                     if (initialHealth > 0) {
                         System.out.printf("You slayed %s.%n", itemOrMonster);
                     } else {
