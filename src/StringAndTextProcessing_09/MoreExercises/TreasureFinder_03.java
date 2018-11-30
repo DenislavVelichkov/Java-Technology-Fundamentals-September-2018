@@ -16,7 +16,9 @@ public class TreasureFinder_03 {
 
         while (true) {
             String input = sc.nextLine();
+
             if (input.equals("find")) break;
+
             List<String> sypher = Arrays.asList(input.split(""));
 
             for (int i = 0; i < sypher.size(); i++) {
@@ -26,15 +28,22 @@ public class TreasureFinder_03 {
                 String character = String.valueOf(asciiInt);
                 stringBuilder.append(character);
 
+                keyIterator++;
+
+                if (decryptionKey.size() <= keyIterator) {
+                    keyIterator = 0;
+                }
+/*
                 if ((keyIterator == decryptionKey.size() - 1) ||
                         (decryptionKey.size() > input.length())) {
                     keyIterator = 0;
                 } else {
                     keyIterator++;
                 }
+*/
 
             }
-            String[] tokens = stringBuilder.toString().split("&");
+            String[] tokens = stringBuilder.toString().split("&+");
             int locationStartIndex = tokens[2].indexOf("<");
             int locationEndIndex = tokens[2].indexOf(">");
             String location = tokens[2].substring(locationStartIndex + 1, locationEndIndex);
