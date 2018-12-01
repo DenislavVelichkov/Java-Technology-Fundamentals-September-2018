@@ -29,7 +29,7 @@ public class WinningTicket_07 {
                                     tickets[i],
                                     Math.min(matcherForLeftSide.group().length(),
                                             matcherForRightSide.group().length()),
-                                    findBiggerGroup(matcherForLeftSide.group(),
+                                    findBetterGroup(matcherForLeftSide.group(),
                                                     matcherForRightSide.group()));
 
                         } else if ((matcherForLeftSide.group().length() == 10) &&
@@ -51,7 +51,7 @@ public class WinningTicket_07 {
         }
     }
 
-    private static String findBiggerGroup(String group, String group1) {
+    private static String findBetterGroup(String group, String group1) {
         String symbol;
         if (group.length() > group1.length()) {
             symbol = group.substring(0, 1);
