@@ -19,10 +19,10 @@ public class TreasureFinder_03 {
 
             if (input.equals("find")) break;
 
-            List<String> sypher = Arrays.asList(input.split(""));
+            List<String> cipher = Arrays.asList(input.split(""));
 
-            for (int i = 0; i < sypher.size(); i++) {
-                char asciiInt = (char) (sypher.get(i).charAt(0) -
+            for (int i = 0; i < cipher.size(); i++) {
+                char asciiInt = (char) (cipher.get(i).charAt(0) -
                         Integer.parseInt(decryptionKey.get(keyIterator)));
 
                 String character = String.valueOf(asciiInt);
@@ -33,14 +33,6 @@ public class TreasureFinder_03 {
                 if (decryptionKey.size() <= keyIterator) {
                     keyIterator = 0;
                 }
-/*
-                if ((keyIterator == decryptionKey.size() - 1) ||
-                        (decryptionKey.size() > input.length())) {
-                    keyIterator = 0;
-                } else {
-                    keyIterator++;
-                }
-*/
 
             }
             String[] tokens = stringBuilder.toString().split("&+");
