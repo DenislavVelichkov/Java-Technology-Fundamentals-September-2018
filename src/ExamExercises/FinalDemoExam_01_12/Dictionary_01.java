@@ -1,4 +1,4 @@
-package Exams.FinalDemoExam_01_12;
+package ExamExercises.FinalDemoExam_01_12;
 
 import java.util.*;
 
