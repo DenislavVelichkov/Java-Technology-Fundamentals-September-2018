@@ -4,7 +4,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Rankings_01_Without_Class {
+public class Ranking_01_Without_Class {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
