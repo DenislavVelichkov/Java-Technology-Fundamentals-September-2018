@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Snowhite_04 {
+public class Snowwhite_04 {
 
     public static void main(String[] args) {
 

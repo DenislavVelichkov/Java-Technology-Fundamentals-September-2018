@@ -4,7 +4,7 @@ package AssociativeArrays_07.MoreExercises;
 import java.util.*;
 
 
-public class Snowhite_04WithClass {
+public class Snowwhite_04_WithClass {
 
     static class Dwarf {
         private String name;
@@ -48,7 +48,9 @@ public class Snowhite_04WithClass {
             String color = tokens[1];
             int physics = Integer.parseInt(tokens[2]);
 
-            Optional<Dwarf> dwarfCandidate = dwarves.stream().filter(dwarf -> dwarf.getName().equals(name) && dwarf.getColor().equals(color))
+            Optional<Dwarf> dwarfCandidate = dwarves.stream()
+                    .filter(dwarf -> dwarf.getName().equals(name) &&
+                            dwarf.getColor().equals(color))
                     .findFirst();
 
             if (dwarfCandidate.isPresent()) {
@@ -68,13 +70,15 @@ public class Snowhite_04WithClass {
             int physics2 = dwarf2.getPhysics();
             int physics1 = dwarf1.getPhysics();
             if (physics1 == physics2) {
-                return countsByColor.get(dwarf2.getColor()).compareTo(
-                        countsByColor.get(dwarf1.getColor())
+                return countsByColor.get(dwarf2.getColor())
+                        .compareTo(
+                       countsByColor.get(dwarf1.getColor())
                 );
             }
             return Integer.compare(physics2, physics1);
         });
 
-        dwarves.forEach(dwarf -> System.out.printf("(%s) %s <-> %d%n", dwarf.getColor(), dwarf.getName(), dwarf.getPhysics()));
+        dwarves.forEach(dwarf -> System.out.printf("(%s) %s <-> %d%n",
+                dwarf.getColor(), dwarf.getName(), dwarf.getPhysics()));
     }
 }
