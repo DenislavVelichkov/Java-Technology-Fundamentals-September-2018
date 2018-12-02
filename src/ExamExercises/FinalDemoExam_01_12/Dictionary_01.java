@@ -9,8 +9,8 @@ public class Dictionary_01 {
 
         Map<String, List<String>> dictionary = new LinkedHashMap<>();
         List<String> listOfWords = new ArrayList<>();
-
         String input = sc.nextLine();
+
         while (true) {
             if (input.equals("End")) {
                 /*Sort Map by Key and By Values fields length*/
@@ -38,7 +38,6 @@ public class Dictionary_01 {
             }
 
             String[] words = input.split(" \\| ");
-
             if (words[0].contains(": ")) {
 
                 for (int i = 0; i < words.length; i++) {
