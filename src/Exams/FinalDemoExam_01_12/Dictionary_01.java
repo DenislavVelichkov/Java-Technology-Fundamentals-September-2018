@@ -13,7 +13,7 @@ public class Dictionary_01 {
         String input = sc.nextLine();
         while (true) {
             if (input.equals("End")) {
-
+                /*Sort Map by Key and By Values fields length*/
                 dictionary.entrySet().stream()
                         .sorted(Map.Entry.comparingByKey())
                         .forEach(k -> {
