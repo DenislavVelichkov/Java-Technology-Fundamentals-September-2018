@@ -40,9 +40,9 @@ public class Dictionary_01 {
             String[] words = input.split(" \\| ");
             if (words[0].contains(": ")) {
 
-                for (int i = 0; i < words.length; i++) {
-                    String[] tokens = words[i].split(": ");
-                    dictionary.putIfAbsent(tokens[0], new ArrayList());
+                for (String word : words) {
+                    String[] tokens = word.split(": ");
+                    dictionary.putIfAbsent(tokens[0], new ArrayList<>());
                     dictionary.get(tokens[0]).add(tokens[1]);
                 }
 
