@@ -20,8 +20,8 @@ public class Dictionary_01 {
                             if (listOfWords.contains(k.getKey())) {
                                 System.out.println(k.getKey());
                                 k.getValue().stream().sorted((o1, o2) -> {
-                                    int resul = Integer.compare(o2.length(), o1.length());
-                                    return resul != 0 ? resul : 1;
+                                    int result = Integer.compare(o2.length(), o1.length());
+                                    return result != 0 ? result : 1;
                                 }).forEach(v -> System.out.printf(" -%s%n", v));
                             }
                         });
