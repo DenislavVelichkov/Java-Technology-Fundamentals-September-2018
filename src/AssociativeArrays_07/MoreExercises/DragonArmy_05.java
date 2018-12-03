@@ -31,12 +31,12 @@ public class DragonArmy_05 {
             final boolean[] isPresent = {false};
             for (List<Dragon> dragonsList : dragons.values()) {
                 dragonsList.forEach(d -> {
-                    if (dragon.name.equals(d.name) &&
-                            dragon.type.equals(dragon.type)) {
+                    if (dragon.getName().equals(d.getName()) &&
+                            dragon.getType().equals(dragon.getType())) {
                         isPresent[0] = true;
-                        d.setDamage(dragon.damage);
-                        d.setHealth(dragon.health);
-                        d.setArmor(dragon.armor);
+                        d.setDamage(dragon.getDamage());
+                        d.setHealth(dragon.getHealth());
+                        d.setArmor(dragon.getArmor());
                     }
                 });
             }
@@ -48,22 +48,25 @@ public class DragonArmy_05 {
         }
 
         dragons.forEach((k, v) -> {
-            OptionalDouble avgHealt =
-                    v.stream().mapToDouble(Dragon::getHealth).average();
-            OptionalDouble avgArmor =
-                    v.stream().mapToDouble(Dragon::getArmor).average();
-            OptionalDouble avgDamage =
-                    v.stream().mapToDouble(Dragon::getDamage).average();
+            Double countHealth = (double) v.stream().mapToDouble(Dragon::getHealth).count();
+            Double countArmor = (double) v.stream().mapToDouble(Dragon::getArmor).count();
+            Double countDmg = (double) v.stream().mapToDouble(Dragon::getDamage).count();
+            Double sumDamage = v.stream().mapToDouble(Dragon::getDamage).sum();
+            Double sumHealth = v.stream().mapToDouble(Dragon::getHealth).sum();
+            Double sumArmor = v.stream().mapToDouble(Dragon::getArmor).sum();
+            Double avgDmg = sumDamage / countDmg;
+            Double avgHealth = sumHealth / countHealth;
+            Double avgArmor = sumArmor / countArmor;
 
             System.out.printf("%s::(%.2f/%.2f/%.2f)%n",
-                    k, avgDamage, avgHealt, avgArmor);
+                    k, avgDmg, avgHealth, avgArmor);
 
             v.stream().sorted((o1, o2) -> {
-                int result = o1.name.compareTo(o2.name);
+                int result = o1.getName().compareTo(o2.getName());
                 return result != 0 ? result : 1;
             }).forEach(d -> {
-                System.out.printf("-%s -> damage: %.0f, health: %.0f, armor: %.0f",
-                        d.name, d.damage, d.health, d.armor);
+                System.out.printf("-%s -> damage: %.0f, health: %.0f, armor: %.0f%n",
+                        d.getName(), d.getDamage(), d.getHealth(), d.getArmor());
             });
         });
     }
@@ -96,27 +99,27 @@ public class DragonArmy_05 {
             this.name = name;
         }
 
-        public Double getDamage() {
+        Double getDamage() {
             return damage;
         }
 
-        public void setDamage(Double damage) {
+        void setDamage(Double damage) {
             this.damage = damage;
         }
 
-        public Double getHealth() {
+        Double getHealth() {
             return health;
         }
 
-        public void setHealth(Double health) {
+        void setHealth(Double health) {
             this.health = health;
         }
 
-        public Double getArmor() {
+        Double getArmor() {
             return armor;
         }
 
-        public void setArmor(Double armor) {
+        void setArmor(Double armor) {
             this.armor = armor;
         }
     }
