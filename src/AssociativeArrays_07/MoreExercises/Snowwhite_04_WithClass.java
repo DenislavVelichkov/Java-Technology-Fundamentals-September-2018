@@ -35,7 +35,7 @@ public class Snowwhite_04_WithClass {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        List<Dwarf> dwarves = new ArrayList<>();
+        List<Dwarf> dwarfs = new ArrayList<>();
         Map<String, Integer> countsByColor = new HashMap<>();
 
         String line = sc.nextLine();
@@ -46,7 +46,7 @@ public class Snowwhite_04_WithClass {
             String color = tokens[1];
             int physics = Integer.parseInt(tokens[2]);
 
-            Optional<Dwarf> dwarfCandidate = dwarves.stream()
+            Optional<Dwarf> dwarfCandidate = dwarfs.stream()
                     .filter(dwarf -> dwarf.getName().equals(name) &&
                             dwarf.getColor().equals(color))
                     .findFirst();
@@ -58,13 +58,13 @@ public class Snowwhite_04_WithClass {
                 Dwarf dwarf = new Dwarf(name, color, physics);
                 countsByColor.putIfAbsent(color, 0);
                 countsByColor.put(color, countsByColor.get(color) + 1);
-                dwarves.add(dwarf);
+                dwarfs.add(dwarf);
             }
 
             line = sc.nextLine();
         }
 
-        dwarves.sort((dwarf1, dwarf2) -> {
+        dwarfs.sort((dwarf1, dwarf2) -> {
             int physics2 = dwarf2.getPhysics();
             int physics1 = dwarf1.getPhysics();
             if (physics1 == physics2) {
@@ -76,7 +76,7 @@ public class Snowwhite_04_WithClass {
             return Integer.compare(physics2, physics1);
         });
 
-        dwarves.forEach(dwarf -> System.out.printf("(%s) %s <-> %d%n",
+        dwarfs.forEach(dwarf -> System.out.printf("(%s) %s <-> %d%n",
                 dwarf.getColor(), dwarf.getName(), dwarf.getPhysics()));
     }
 }
