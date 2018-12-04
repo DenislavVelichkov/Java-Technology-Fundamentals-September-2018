@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="60181009-6730-4c0f-80be-5dd1e7df739b" name="Default" comment="My work so far in Java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Deciphering_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Deciphering_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Dictionary_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Dictionary_01.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +61,44 @@
     <favorites_list name="TechModule4.0" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ExamExercises/UpgradedMatcher_08.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Deciphering_02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#385#557#1" />
+                <element signature="method#checkForValidBook#0;class#Deciphering_02#0" />
+                <element signature="method#massage#0;class#Deciphering_02#0" />
+                <element signature="method#decryptCipher#0;class#Deciphering_02#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Dictionary_01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+              <folding>
+                <element signature="method#main#0;class#Dictionary_01#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -125,8 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Main.java" />
-        <option value="$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/CarSalesman_03/Engine.java" />
         <option value="$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/CarSalesman_03/Car.java" />
         <option value="$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/CarSalesman_03/Main.java" />
         <option value="$PROJECT_DIR$/src/AssociativeArrays_07/MoreExercises/Snowwhite_04.java" />
@@ -176,6 +213,8 @@
         <option value="$PROJECT_DIR$/src/AssociativeArrays_07/MoreExercises/Snowwhite_04_WithClass.java" />
         <option value="$PROJECT_DIR$/src/AssociativeArrays_07/MoreExercises/DragonArmy_05.java" />
         <option value="$PROJECT_DIR$/gitignore" />
+        <option value="$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Deciphering_02.java" />
+        <option value="$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Dictionary_01.java" />
       </list>
     </option>
   </component>
@@ -216,6 +255,41 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TechModule4.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TechModule4.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TechModule4.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TechModule4.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TechModule4.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TechModule4.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ExamExercises" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TechModule4.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TechModule4.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ExamExercises" type="462c0819:PsiDirectoryNode" />
+              <item name="FinalDemoExam_01_12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TechModule4.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TechModule4.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Exams" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
@@ -254,17 +328,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TechModule4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TechModule4.0" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,7 +336,7 @@
     <property name="ToolWindowMaven Projects.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543883520984" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543951741405" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -552,6 +615,7 @@
       <workItem from="1543339435794" duration="16904000" />
       <workItem from="1543486311363" duration="761000" />
       <workItem from="1543880098865" duration="3463000" />
+      <workItem from="1543951648562" duration="1076000" />
     </task>
     <task id="LOCAL-00001" summary="My work so far in Java">
       <created>1543148379808</created>
@@ -616,7 +680,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543883524528</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="My work so far in Java">
+      <created>1543951748473</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1543951748473</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -625,7 +696,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="846007000" />
+    <option name="totallyTimeSpent" value="847083000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -638,6 +709,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.50789475" side_tool="true" weight="0.24562798" />
       <window_info id="Image Layers" order="1" />
@@ -646,8 +718,7 @@
       <window_info id="Learn" order="4" weight="0.33522266" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5063063" side_tool="true" weight="0.4090909" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.49210528" visible="true" weight="0.20362474" />
-      <window_info anchor="bottom" id="Duplicate detector" weight="0.32998884" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.49210528" visible="true" weight="0.20575693" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.30694142" />
       <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.5032017" weight="0.37458193" />
@@ -663,6 +734,7 @@
       <window_info anchor="bottom" id="Run" order="12" sideWeight="0.49893278" weight="0.36677814" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="GitHub Pull Requests" order="14" sideWeight="0.4994664" weight="0.32899022" />
+      <window_info anchor="bottom" id="Duplicate detector" order="15" weight="0.32998884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" auto_hide="true" id="Maven Projects" order="1" show_stripe_button="false" type="SLIDING" weight="0.32955465" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -885,41 +957,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/StringAndTextProcessing_09/Exercises/StringExplosion_07.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StringAndTextProcessing_09/Exercises/LettersChangeNumbers_08.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="4388" selection-start-line="4388" selection-end-line="4388" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AssociativeArrays_07/Excersise/Orders_04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegularExpressions/Lab/MatchDates_03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RegularExpressions/Lab/MatchNuimbers_04.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1165,34 +1202,10 @@
         <state relative-caret-position="-90" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/OpinionPoll_03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/OrderByAge_07.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/Students_05.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/VehicleCatalogue_06.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/OpinionPoll_03.java" />
+    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/OrderByAge_07.java" />
+    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/Students_05.java" />
+    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/VehicleCatalogue_06.java" />
     <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/OpinionPoll_03/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1207,13 +1220,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/Articles20_04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/Articles20_04.java" />
     <entry file="file://$PROJECT_DIR$/exit">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-720" />
@@ -1271,6 +1278,50 @@
             <element signature="e#1040#1041#0" expanded="true" />
             <element signature="e#1079#1080#0" expanded="true" />
             <element signature="e#1121#1122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExamExercises/Hogswatch_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExamExersises/Hogswatch_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExamExercises/UpgradedMatcher_08.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Deciphering_02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#385#557#1" />
+            <element signature="method#checkForValidBook#0;class#Deciphering_02#0" />
+            <element signature="method#massage#0;class#Deciphering_02#0" />
+            <element signature="method#decryptCipher#0;class#Deciphering_02#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Dictionary_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding>
+            <element signature="method#main#0;class#Dictionary_01#0" />
           </folding>
         </state>
       </provider>

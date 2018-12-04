@@ -33,7 +33,6 @@ public class Dictionary_01 {
                 dictionary.entrySet().stream()
                         .sorted(Map.Entry.comparingByKey())
                         .forEach(e -> System.out.printf("%s ", e.getKey()));
-
                 break;
             }
 
@@ -49,7 +48,6 @@ public class Dictionary_01 {
             } else {
                 listOfWords.addAll(Arrays.asList(words));
             }
-
             input = sc.nextLine();
         }
     }
