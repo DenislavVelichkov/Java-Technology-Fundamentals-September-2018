@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60181009-6730-4c0f-80be-5dd1e7df739b" name="Default" comment="My work so far in Java">
-      <change afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Exercises/OpinionPoll_03/OpinionPoll_03.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Exercises/OrderByAge_07/OrderByAge_07.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/MoreExercises/RawData_02/RawData_02.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AssociativeArrays_07/MoreExercises/DragonArmy_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AssociativeArrays_07/MoreExercises/DragonArmy_05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AssociativeArrays_07/MoreExercises/Snowwhite_04_WithClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AssociativeArrays_07/MoreExercises/Snowwhite_04_WithClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/OpinionPoll_03/OpinionPoll_03.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/OrderByAge_07/OrderByAge_07.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/RawData_02/RawData_02.zip" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,38 +59,7 @@
     <favorites_list name="TechModule4.0" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AssociativeArrays_07/MoreExercises/DragonArmy_05.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="106" column="9" lean-forward="true" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#738#739#0" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-                <element signature="e#890#891#0" expanded="true" />
-                <element signature="e#931#932#0" expanded="true" />
-                <element signature="e#975#976#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#1040#1041#0" expanded="true" />
-                <element signature="e#1079#1080#0" expanded="true" />
-                <element signature="e#1121#1122#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -165,7 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Team.java" />
         <option value="$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Main.java" />
         <option value="$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/CarSalesman_03/Engine.java" />
         <option value="$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/CarSalesman_03/Car.java" />
@@ -216,6 +175,7 @@
         <option value="$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/Articles20_04.java" />
         <option value="$PROJECT_DIR$/src/AssociativeArrays_07/MoreExercises/Snowwhite_04_WithClass.java" />
         <option value="$PROJECT_DIR$/src/AssociativeArrays_07/MoreExercises/DragonArmy_05.java" />
+        <option value="$PROJECT_DIR$/gitignore" />
       </list>
     </option>
   </component>
@@ -301,24 +261,6 @@
               <item name="TechModule4.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="TechModule4.0" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TechModule4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TechModule4.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TechModule4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TechModule4.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AssociativeArrays_07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TechModule4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TechModule4.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AssociativeArrays_07" type="462c0819:PsiDirectoryNode" />
-              <item name="MoreExercises" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -331,7 +273,7 @@
     <property name="ToolWindowMaven Projects.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543883465761" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543883520984" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -348,16 +290,6 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Methods_Functions_04.Exercises" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\SoftUni\Tech Module 4.0\Java Fundamentals\TechModule4.0\src\ObjectsAndClasses_08\Lab" />
-      <recent name="D:\SoftUni\Tech Module 4.0\Java Fundamentals\TechModule4.0\src\Arrays_03\MoreExcersises" />
-      <recent name="D:\JetBrains\TechModule4.0\src" />
-      <recent name="D:\JetBrains\TechModule4.0\BasicSyntaxConditionalStatementsAndLoops_01" />
-      <recent name="D:\JetBrains\TechModule4.0\BasicSyntaxConditionalStatementsAndLoops_01\Lab" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ObjectsAndClasses_08.Lab" />
       <recent name="Lists_05.Exercises" />
@@ -367,6 +299,16 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\SoftUni\Tech Module 4.0\Java Fundamentals\TechModule4.0\src\ObjectsAndClasses_08\Lab" />
       <recent name="H:\SoftUni\Tech Module 4.0\Java Fundamentals\TechModule4.0\src\ObjectsAndClasses_08\MoreExercises" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SoftUni\Tech Module 4.0\Java Fundamentals\TechModule4.0\src\ObjectsAndClasses_08\Lab" />
+      <recent name="D:\SoftUni\Tech Module 4.0\Java Fundamentals\TechModule4.0\src\Arrays_03\MoreExcersises" />
+      <recent name="D:\JetBrains\TechModule4.0\src" />
+      <recent name="D:\JetBrains\TechModule4.0\BasicSyntaxConditionalStatementsAndLoops_01" />
+      <recent name="D:\JetBrains\TechModule4.0\BasicSyntaxConditionalStatementsAndLoops_01\Lab" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -609,7 +551,7 @@
       <workItem from="1543323434830" duration="12604000" />
       <workItem from="1543339435794" duration="16904000" />
       <workItem from="1543486311363" duration="761000" />
-      <workItem from="1543880098865" duration="3214000" />
+      <workItem from="1543880098865" duration="3463000" />
     </task>
     <task id="LOCAL-00001" summary="My work so far in Java">
       <created>1543148379808</created>
@@ -660,7 +602,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543487006028</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="My work so far in Java">
+      <created>1543883415362</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1543883415362</updated>
+    </task>
+    <task id="LOCAL-00009" summary="My work so far in Java">
+      <created>1543883524528</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1543883524528</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -669,7 +625,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="845758000" />
+    <option name="totallyTimeSpent" value="846007000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -682,7 +638,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.50789475" side_tool="true" weight="0.24562798" />
       <window_info id="Image Layers" order="1" />
@@ -691,7 +646,7 @@
       <window_info id="Learn" order="4" weight="0.33522266" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5063063" side_tool="true" weight="0.4090909" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49210528" visible="true" weight="0.20362474" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.49210528" visible="true" weight="0.20362474" />
       <window_info anchor="bottom" id="Duplicate detector" weight="0.32998884" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.30694142" />
@@ -705,7 +660,7 @@
       <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32925472" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49839914" weight="0.53528774" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" sideWeight="0.49893278" visible="true" weight="0.36677814" />
+      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.49893278" weight="0.36677814" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="GitHub Pull Requests" order="14" sideWeight="0.4994664" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1210,9 +1165,6 @@
         <state relative-caret-position="-90" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/OpinionPoll_03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1288,10 +1240,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AssociativeArrays_07/MoreExercises/DragonArmy_05.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="106" column="9" lean-forward="true" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
+        <state relative-caret-position="300">
+          <caret line="97" column="13" lean-forward="true" selection-end-line="130" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#482#483#0" expanded="true" />
