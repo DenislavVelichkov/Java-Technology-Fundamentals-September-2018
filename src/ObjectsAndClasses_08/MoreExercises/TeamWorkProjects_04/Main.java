@@ -71,10 +71,11 @@ public class Main {
 
         teamAndLeader.forEach((k, v) -> {
             System.out.printf("%s%n- %s%n",k ,v);
-            teamAndPlayers
-                    .entrySet()
-                    .stream()
-                    .sorted((v1, v2) -> Integer.compare(v2.getValue().size(), v1.getValue().size()))
+            teamAndPlayers.entrySet().stream()
+                    .sorted((v1, v2) -> {
+                        int result =  Integer.compare (v2.getValue().size(), v1.getValue().size());
+                        return result != 0 ? result : 1;
+                    })
                     .forEach(p -> System.out.printf("-- %s%n", p));
         });
     }

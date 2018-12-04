@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60181009-6730-4c0f-80be-5dd1e7df739b" name="Default" comment="My work so far in Java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Deciphering_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Deciphering_02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Dictionary_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Dictionary_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,38 +61,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExamExercises/UpgradedMatcher_08.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Deciphering_02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#385#557#1" />
-                <element signature="method#checkForValidBook#0;class#Deciphering_02#0" />
-                <element signature="method#massage#0;class#Deciphering_02#0" />
-                <element signature="method#decryptCipher#0;class#Deciphering_02#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Dictionary_01.java">
+        <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-              <folding>
-                <element signature="method#main#0;class#Dictionary_01#0" />
-              </folding>
+            <state relative-caret-position="2119">
+              <caret line="79" column="11" lean-forward="true" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -114,8 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>arraylis</find>
-      <find>fibo</find>
       <find>fibonacci</find>
       <find>editor.pro</find>
       <find>plugins</find>
@@ -144,6 +114,8 @@
       <find>.remove</find>
       <find>Buffer</find>
       <find>buff</find>
+      <find>force</find>
+      <find>softun</find>
     </findStrings>
     <replaceStrings>
       <replace>min</replace>
@@ -164,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/CarSalesman_03/Car.java" />
         <option value="$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/CarSalesman_03/Main.java" />
         <option value="$PROJECT_DIR$/src/AssociativeArrays_07/MoreExercises/Snowwhite_04.java" />
         <option value="$PROJECT_DIR$/src/AssociativeArrays_07/MoreExercises/Snowhite_04WithClass.java" />
@@ -215,6 +186,7 @@
         <option value="$PROJECT_DIR$/gitignore" />
         <option value="$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Deciphering_02.java" />
         <option value="$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Dictionary_01.java" />
+        <option value="$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Main.java" />
       </list>
     </option>
   </component>
@@ -271,20 +243,22 @@
               <item name="TechModule4.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="TechModule4.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ExamExercises" type="462c0819:PsiDirectoryNode" />
+              <item name="ObjectsAndClasses_08" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TechModule4.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="TechModule4.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ExamExercises" type="462c0819:PsiDirectoryNode" />
-              <item name="FinalDemoExam_01_12" type="462c0819:PsiDirectoryNode" />
+              <item name="ObjectsAndClasses_08" type="462c0819:PsiDirectoryNode" />
+              <item name="MoreExercises" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TechModule4.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="TechModule4.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Exams" type="462c0819:PsiDirectoryNode" />
+              <item name="ObjectsAndClasses_08" type="462c0819:PsiDirectoryNode" />
+              <item name="MoreExercises" type="462c0819:PsiDirectoryNode" />
+              <item name="TeamWorkProjects_04" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,7 +310,7 @@
     <property name="ToolWindowMaven Projects.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543951741405" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543953807140" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -615,7 +589,7 @@
       <workItem from="1543339435794" duration="16904000" />
       <workItem from="1543486311363" duration="761000" />
       <workItem from="1543880098865" duration="3463000" />
-      <workItem from="1543951648562" duration="1076000" />
+      <workItem from="1543951648562" duration="2157000" />
     </task>
     <task id="LOCAL-00001" summary="My work so far in Java">
       <created>1543148379808</created>
@@ -687,7 +661,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543951748473</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="My work so far in Java">
+      <created>1543952732257</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1543952732257</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -696,7 +677,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="847083000" />
+    <option name="totallyTimeSpent" value="848164000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -726,7 +707,7 @@
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.4994664" weight="0.32356134" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.11400651" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010672" side_tool="true" weight="0.3669924" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010672" side_tool="true" visible="true" weight="0.36677814" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4989339" weight="0.29431438" />
       <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32925472" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49839914" weight="0.53528774" />
@@ -957,27 +938,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/RegularExpressions/Lab/MatchNuimbers_04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegularExpressions/Lab/MatchFullName_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegularExpressions/Lab/MatchPhoneNumber_02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataBaseBasics/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -1323,6 +1283,27 @@
           <folding>
             <element signature="method#main#0;class#Dictionary_01#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AssociativeArrays_07/Excersise/ForceBook_09.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="51" column="33" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AssociativeArrays_07/Excersise/SoftUniExamResults_10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2119">
+          <caret line="79" column="11" lean-forward="true" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
         </state>
       </provider>
     </entry>
