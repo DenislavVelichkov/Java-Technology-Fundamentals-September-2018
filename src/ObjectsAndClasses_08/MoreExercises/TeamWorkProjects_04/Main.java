@@ -33,14 +33,14 @@ public class Main {
                 entry.getValue()
                         .stream()
                         .anyMatch(pl -> {
-                            if (pl.getName().equals(teamLeader) &&
-                                    !entry.getKey().contains(teamName)) {
+                            if (pl.getName().equals(teamLeader)) {
                                 return isPresent[0] = true;
                             } else {
                                 return isPresent[0] = false;
                             }
                         });
             }
+
             if (isPresent[0]) {
                 System.out.printf("%s cannot create another team!%n",
                         player.getName());
@@ -73,7 +73,6 @@ public class Main {
                         isPresent[0] = true;
                         System.out.printf("Member %s cannot join team %s!%n",
                                 user, teamToJoin);
-                        break;
                     }
                 }
             });
@@ -119,7 +118,7 @@ public class Main {
             List<Player> toBe2nd =
                     input.getValue()
                             .stream()
-                            .sorted(Comparator.comparing(Player::getName))
+                            .sorted((o1, o2) -> o1.getName().compareToIgnoreCase(o2.getName()))
                             .filter(player -> player.getType().equals("minion"))
                             .collect(Collectors.toList());
 
