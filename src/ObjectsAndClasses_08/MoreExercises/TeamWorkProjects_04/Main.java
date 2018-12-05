@@ -1,19 +1,22 @@
 package ObjectsAndClasses_08.MoreExercises.TeamWorkProjects_04;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 import java.util.stream.Collectors;
 
 public class Main {
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         final boolean[] isPresent = {false};
-        int n = Integer.parseInt(sc.nextLine());
-        Map<String, List<Player>> team = new TreeMap<>();
+        int n = Integer.parseInt(reader.readLine());
+        Map<String, List<Player>> team = new LinkedHashMap<>();
 
         for (int i = 0; i < n; i++) {
-            String line = sc.nextLine();
+            String line = reader.readLine();
             String[] text = line.split("-");
             String teamLeader = text[0];
             String teamName = text[1];
@@ -51,7 +54,7 @@ public class Main {
 
         isPresent[0] = false;
         while (true) {
-            String line = sc.nextLine();
+            String line = reader.readLine();
             if (line.equals("end of assignment")) break;
 
             String[] text = line.split("->");
@@ -92,34 +95,37 @@ public class Main {
                 .forEach(Main::accept);
 
         System.out.println("Teams to disband:");
-        team.forEach((teamName, players) -> {
-            if (players.size() <= 1) {
-                System.out.printf("%s%n", teamName);
-            }
-        });
+        team.entrySet().stream()
+                .sorted((o1, o2) -> o1.getKey().compareToIgnoreCase(o2.getKey()))
+                .forEach(entry -> {
+                    if (entry.getValue().size() < 2) {
+                        System.out.printf("%s%n", entry.getKey());
+                    }
+                });
     }
 
     private static void accept(Map.Entry<String, List<Player>> input) {
         if (!(input.getValue().size() < 2)) {
-                System.out.printf("%s%n", input.getKey());
+            System.out.printf("%s%n", input.getKey());
 
-                Optional<Player> toBe =
-                        input.getValue()
-                                .stream()
-                                .filter(player -> player.getType().equals("leader"))
-                                .findFirst();
+            Optional<Player> toBe =
+                    input.getValue()
+                            .stream()
+                            .filter(player -> player.getType().equals("leader"))
+                            .findFirst();
 
-                System.out.printf("- %s%n", toBe.get().getName());
+            System.out.printf("- %s%n", toBe.get().getName());
 
             List<Player> toBe2nd =
                     input.getValue()
                             .stream()
+                            .sorted(Comparator.comparing(Player::getName))
                             .filter(player -> player.getType().equals("minion"))
                             .collect(Collectors.toList());
 
-                toBe2nd.forEach(player -> {
-                    System.out.printf("-- %s%n", player.getName());
-                });
+            toBe2nd.forEach(player -> {
+                System.out.printf("-- %s%n", player.getName());
+            });
 
         }
     }
