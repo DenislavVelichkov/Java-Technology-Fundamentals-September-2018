@@ -1,82 +1,126 @@
 package ObjectsAndClasses_08.MoreExercises.TeamWorkProjects_04;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
 
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
+        final boolean[] isPresent = {false};
         int n = Integer.parseInt(sc.nextLine());
-        String text = sc.nextLine();
-        Map<String, List<String>> teamAndLeader = new TreeMap<>();
-        Map<String, List<String>> teamAndPlayers = new LinkedHashMap<>();
+        Map<String, List<Player>> team = new TreeMap<>();
 
-        while (n-- > 0) {
-            String[] line = text.split("-");
-            String teamLeader = line[0];
-            String teamName = line[1];
+        for (int i = 0; i < n; i++) {
+            String line = sc.nextLine();
+            String[] text = line.split("-");
+            String teamLeader = text[0];
+            String teamName = text[1];
 
-            teamAndLeader.putIfAbsent(teamName, new ArrayList<>());
+            Player player = new Player(teamLeader);
+            if (team.containsKey(teamName)) {
+                System.out.printf("Team %s was already created!%n", teamName);
+                continue;
+            }
 
-            if (!teamAndLeader.get(teamName).contains(teamLeader)) {
-                teamAndLeader.get(teamName).add(teamLeader);
+            team.putIfAbsent(teamName, new ArrayList<>());
+
+            for (Map.Entry<String, List<Player>> entry : team.entrySet()) {
+                entry.getValue()
+                        .stream()
+                        .anyMatch(pl -> {
+                            if (pl.getName().equals(teamLeader) &&
+                                    !entry.getKey().contains(teamName)) {
+                                return isPresent[0] = true;
+                            } else {
+                                return isPresent[0] = false;
+                            }
+                        });
+            }
+            if (isPresent[0]) {
+                System.out.printf("%s cannot create another team!%n",
+                        player.getName());
+            } else {
+                team.get(teamName).add(player);
+                player.setType("leader");
                 System.out.printf("Team %s has been created by %s!%n",
                         teamName, teamLeader);
-            } else {
-                System.out.printf("Team %s was already created!%n",
-                        teamName);
             }
-
-            text = sc.nextLine();
         }
 
-        while (!text.equals("end of assignment")) {
-            String[] line = text.split("->");
-            String player = line[0];
-            String teamToJoin = line[1];
+        isPresent[0] = false;
+        while (true) {
+            String line = sc.nextLine();
+            if (line.equals("end of assignment")) break;
 
-            if (teamAndLeader.get(teamToJoin).contains(player)) {
-                System.out.printf("%s cannot create another team!", player);
+            String[] text = line.split("->");
+            String user = text[0];
+            String teamToJoin = text[1];
+            Player player = new Player(user);
+
+            if (!team.containsKey(teamToJoin)) {
+                System.out.printf("Team %s does not exist!%n", teamToJoin);
+                continue;
             }
 
-            for (Map.Entry<String, List<String>> entry : teamAndPlayers.entrySet()) {
-                if (entry.getValue().contains(player)) {
-                    System.out.printf("Member %s cannot join team %s!%n",
-                            player, teamToJoin);
-                } else {
-                    teamAndPlayers.get(teamToJoin).add(player);
+            team.values().forEach(players -> {
+                for (Player pl : players) {
+                    if (pl.getName().equals(user)) {
+                        isPresent[0] = true;
+                        System.out.printf("Member %s cannot join team %s!%n",
+                                user, teamToJoin);
+                        break;
+                    }
                 }
+            });
+
+            if (!isPresent[0]) {
+                team.get(teamToJoin).add(player);
+                player.setType("minion");
             }
-
-            if (!teamAndLeader.get(teamToJoin).isEmpty()) {
-                System.out.printf("Team %s does not exist!%n", teamToJoin);
-            }
-            /*if (teamAndPlayers.get(teamToJoin) &&
-                    !teamAndPlayers.containsValue(teamAndPlayers.get(teamToJoin))) {
-                teamAndPlayers.putIfAbsent(teamToJoin, new ArrayList<>());
-                teamAndPlayers.get(teamToJoin).add(player);
-            } else {
-                System.out.printf("Member %s cannot join team %s!%n",
-                        player, teamToJoin);
-            }*/
-
-            /*} else {
-                System.out.printf("Team %s does not exist!%n", teamToJoin);
-            }*/
-
-            text = sc.nextLine();
         }
 
-        teamAndLeader.forEach((k, v) -> {
-            System.out.printf("%s%n- %s%n",k ,v);
-            teamAndPlayers.entrySet().stream()
-                    .sorted((v1, v2) -> {
-                        int result =  Integer.compare (v2.getValue().size(), v1.getValue().size());
-                        return result != 0 ? result : 1;
-                    })
-                    .forEach(p -> System.out.printf("-- %s%n", p));
+        team.entrySet().stream()
+                .sorted((o1, o2) -> {
+                    int result =
+                            Integer.compare(o2.getValue().size(), o1.getValue().size());
+                    if (result != 0) return result;
+                    else return 1;
+                })
+                .sorted(Map.Entry.comparingByKey())
+                .forEach(Main::accept);
+
+        System.out.println("Teams to disband:");
+        team.forEach((teamName, players) -> {
+            if (players.size() <= 1) {
+                System.out.printf("%s%n", teamName);
+            }
         });
+    }
+
+    private static void accept(Map.Entry<String, List<Player>> input) {
+        if (!(input.getValue().size() < 2)) {
+                System.out.printf("%s%n", input.getKey());
+
+                Optional<Player> toBe =
+                        input.getValue()
+                                .stream()
+                                .filter(player -> player.getType().equals("leader"))
+                                .findFirst();
+
+                System.out.printf("- %s%n", toBe.get().getName());
+
+            List<Player> toBe2nd =
+                    input.getValue()
+                            .stream()
+                            .filter(player -> player.getType().equals("minion"))
+                            .collect(Collectors.toList());
+
+                toBe2nd.forEach(player -> {
+                    System.out.printf("-- %s%n", player.getName());
+                });
+
+        }
     }
 }

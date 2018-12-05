@@ -1,9 +1,256 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60181009-6730-4c0f-80be-5dd1e7df739b" name="Default" comment="My work so far in Java">
+    <list default="true" id="86b4d923-62e6-4139-b627-527aac4fc418" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Denzo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechModule4.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TechModule4.0.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ArraysDemo_03/Lab/CondencseArrayToNumber_07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Exercises/ArrayRotation_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Exercises/ArrayRotation_04_Ver2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Exercises/CommonElements_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Exercises/EqualSum_06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Exercises/KaminoFactory_09.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Exercises/KaminoFactory_09_Ver2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Exercises/LadyBugs_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Exercises/LargestCommonEnd_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Exercises/MagicSum_08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Exercises/MaxSequenceOfEqualElements_07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Exercises/TopInteger_05_Ver2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Exercises/TopIntegers_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Exercises/Train_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Exercises/ZigZagArrays_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Exercises/ZigZagArrays_03_Ver2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Lab/Chushki_Lab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Lab/CodeFromLab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Lab/CodeFromLab_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Lab/CompareCharArrays_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Lab/DayOfTheWeek_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Lab/DayOfTheWeek_01Ver2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Lab/DemoAllNumbersAreOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Lab/EqualArrays_06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Lab/EvenAndOddSubstraction_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Lab/IntArrayReadFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Lab/PrintNumbersInReverseOrder_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Lab/ReverseAnArrayOfStrings_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Lab/ReverseAnArrayOfStrings_04Ver2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Lab/StringToIntArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Lab/SumEvenNumbers_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Lab/Yonkov_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Lab/Yonkov_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/Lab/Yonkov_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/MoreExcersises/EncryptSortAndPrintArray_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/MoreExcersises/FibRecursion_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/MoreExcersises/FibRecursion_01_Ver3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/MoreExcersises/FibRecursion_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/MoreExcersises/LongestIncreasingSequence_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/MoreExcersises/PascalTriangle_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Arrays_03/MoreExcersises/RecursiveFibonacci_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/AssociativeArrays_07/Excersise/AMinerTask_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/AssociativeArrays_07/Excersise/CompanyUsers_08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/AssociativeArrays_07/Excersise/CountCharsInAString_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/AssociativeArrays_07/Excersise/Courses_06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/AssociativeArrays_07/Excersise/ForceBook_09.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/AssociativeArrays_07/Excersise/ForceBook_09_Ver2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/AssociativeArrays_07/Excersise/LegendaryFarming_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/AssociativeArrays_07/Excersise/Orders_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/AssociativeArrays_07/Excersise/SoftUniExamResults_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/AssociativeArrays_07/Excersise/SoftUniParking_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/AssociativeArrays_07/Excersise/StudentAcademy_07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/AssociativeArrays_07/Lab/CountRealNumbers_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/AssociativeArrays_07/Lab/Largest3Numbers_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/AssociativeArrays_07/Lab/OddOccurrences_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/AssociativeArrays_07/Lab/WordFilter_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/AssociativeArrays_07/Lab/WordSynonyms_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Exercise/Ages_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Exercise/Division_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Exercise/Login_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Exercise/PadawanEquipment_09.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Exercise/PrintAndSum_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Exercise/RageExpenses_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Exercise/StrongNumber_06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Exercise/StrongNumber_06Ver2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Exercise/TriangleOfNumbers_08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Exercise/Vacation_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Exercise/VendingMachine_07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Lab/BackIn30Minutes_04_Lab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Lab/Devisibleby3_08_Lab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Lab/EvenNumber_12_Lab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Lab/Foreign_Languages_06_Lab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Lab/Month_printer_05_Lab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Lab/MultiplicationTable_10_Lab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Lab/MultiplicationTable_11_Lab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Lab/Passed_02_Lab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Lab/Student_Information_01_Lab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Lab/SumBigNumbersInRange_13_Lab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Lab/SumOfOddNumbers_09_Lab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BasicSyntaxConditionalStatementsAndLoops_01/Lab/TheatrePromotion_07_Lab.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BitwiseOperations_06/Lab/BinaryDigitsCount_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BitwiseOperations_06/Lab/BitDestroyer_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BitwiseOperations_06/Lab/FirstBit_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BitwiseOperations_06/Lab/OddTimes_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BitwiseOperations_06/Lab/TriBitSwitch__06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/BitwiseOperations_06/Lab/pTH_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataBaseBasics/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataTypesAndVariables_02/Exercise/CharsToString_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataTypesAndVariables_02/Exercise/ConvertMetersToKilometers_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataTypesAndVariables_02/Exercise/DollarsToPound_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataTypesAndVariables_02/Exercise/LowerToUpper_07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataTypesAndVariables_02/Exercise/MoreExercises/DataTypeFinderVer2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataTypesAndVariables_02/Exercise/MoreExercises/DataTypeFinder_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataTypesAndVariables_02/Exercise/MoreExercises/ExchangeIntegers_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataTypesAndVariables_02/Exercise/MoreExercises/FloatingEquality_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataTypesAndVariables_02/Exercise/MoreExercises/FromLeftToTheRight_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataTypesAndVariables_02/Exercise/MoreExercises/RefactoringPrimeChecker_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataTypesAndVariables_02/Exercise/PokeMon_09.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataTypesAndVariables_02/Exercise/ReversedChars_06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataTypesAndVariables_02/Exercise/Snowballs_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataTypesAndVariables_02/Exercise/SpiceMustFlow_08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataTypesAndVariables_02/Exercise/SumDigits_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataTypesAndVariables_02/Exercise/TownInfo_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataTypesAndVariables_02/Lab/Elevator_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataTypesAndVariables_02/Lab/ExactSumOfRealNumbers_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataTypesAndVariables_02/Lab/IntegerOperations_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/DataTypesAndVariables_02/Lab/SpecialNumbers_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ExamExercises/DemoMidExam2710/BakingFactory_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ExamExercises/DemoMidExam2710/BakingFactory_03_Ver2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ExamExercises/DemoMidExam2710/BakingFactory_03_Yonkov.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ExamExercises/DemoMidExam2710/BakingMasterClass_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ExamExercises/DemoMidExam2710/BakingRush_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ExamExercises/DemoMidExam2710/BakingRush_02_Ver2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ExamExercises/DemoMidExam2710/BakingRush_02_Yonkov.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ExamExercises/Hogswatch_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ExamExercises/UpgradedMatcher_08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Exams/MidExam041118/DungeonestDark_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Exams/MidExam041118/PartyProfit_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Exams/MidExam041118/QuestsJournal_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Exercises/AnonymousThread_08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Exercises/AppendArrays_07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Exercises/AppendArrays_07_ver2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Exercises/BoomNumbers_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Exercises/CardsGames_06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Exercises/ChangeList_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Exercises/HouseParty_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Exercises/ListOperations_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Exercises/PokemonDontGo_09.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Exercises/SoftUniCoursePlanning_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Exercises/SoftUniCoursePlanning_10_ver2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Exercises/Train_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Exercises/Train_01_Functions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Exercises/Train_01_Functions_Additional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Lab/GausTrick_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Lab/GausTrick_02_Ver2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Lab/ListManipulationBasics_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Lab/ListManipulation_05_Ver2_Functions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Lab/ListOfProducts_06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Lab/ProblemMergingList_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Lab/RemoveNegativesAndReverse_07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/Lab/SumAdjacentEqual_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/MoreExercises/CarRace_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/MoreExercises/DrumSet_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/MoreExercises/Massaging_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/MoreExercises/MixedUpArrays_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Lists_05/MoreExercises/TakeSkipRope_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/Exercises/AddAndSubtract_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/Exercises/ArrayManipulator_11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/Exercises/ArrayManipulator_11_MyVer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/Exercises/ArrayManipulator_11_Ver2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/Exercises/CharactersInRange_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/Exercises/FactorialDivision_08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/Exercises/FactorialDivision_08_Ver2Recursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/Exercises/MiddleCharacters_06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/Exercises/NxNMatrix_07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/Exercises/PalindromIntegers_09.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/Exercises/PasswordValidator_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/Exercises/PasswordValidator_04_Ver2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/Exercises/SmallestOfThreeNumbers_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/Exercises/TopNumber_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/Exercises/VowelsCount_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/Lab/Grades_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/Lab/SignOfInteger_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/MoreExercises/CenterPoint_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/MoreExercises/DataTypes_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/MoreExercises/LongerLine_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/MoreExercises/MultiplicationSign_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/MoreExercises/TribonacciSequence_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/Methods_Functions_04/Snowmen_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Exercises/AdvertisementMessage_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Exercises/Articles2_04/Article.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Exercises/Articles2_04/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Exercises/Articles_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Exercises/OpinionPoll_03/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Exercises/OpinionPoll_03/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Exercises/OrderByAge_07/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Exercises/OrderByAge_07/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Exercises/Students_05/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Exercises/Students_05/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Exercises/VehicleCatalogue_06/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Exercises/VehicleCatalogue_06/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Lab/CountryAndPerson/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Lab/CountryAndPerson/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Lab/Dice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Lab/Dices/Dice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Lab/Dices/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Lab/RandomizeWords_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Lab/Song.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Lab/Songs_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Lab/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Lab/Student20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Lab/Students20_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Lab/Students_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/Lab/SumBigNumbers_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/MoreExercises/CarSalesman_03/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/MoreExercises/CarSalesman_03/Engine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/MoreExercises/CarSalesman_03/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/MoreExercises/CompanyRoster_01/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/MoreExercises/CompanyRoster_01/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/MoreExercises/CompanyRoster_01/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/MoreExercises/CompanyRoster_01_Ver2/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/MoreExercises/CompanyRoster_01_Ver2/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/MoreExercises/CompanyRoster_01_Ver2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/MoreExercises/CompanyRoster_01_ver3/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/MoreExercises/CompanyRoster_01_ver3/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/MoreExercises/CompanyRoster_01_ver3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/MoreExercises/RawData_02/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/MoreExercises/RawData_02/Cargo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/MoreExercises/RawData_02/Engine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/MoreExercises/RawData_02/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/MoreExercises/RawData_02/Tire.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TechModule4.0/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/RegularExpressions/Exercises/ExtractEmails_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/RegularExpressions/Exercises/Furniture_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/RegularExpressions/Exercises/HTMLParser_07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/RegularExpressions/Exercises/NetherRealms_06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/RegularExpressions/Exercises/Race_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/RegularExpressions/Exercises/SoftUniBarIncome_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/RegularExpressions/Exercises/StarEnigma_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/RegularExpressions/Exercises/StarEnigma_05_Ver2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/RegularExpressions/Lab/MatchDates_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/RegularExpressions/Lab/MatchFullName_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/RegularExpressions/Lab/MatchNuimbers_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/RegularExpressions/Lab/MatchPhoneNumber_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/StringAndTextProcessing_09/Exercises/CaesarCipher_04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/StringAndTextProcessing_09/Exercises/CharacterMultiplier_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/StringAndTextProcessing_09/Exercises/ExtractFile_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/StringAndTextProcessing_09/Exercises/ExtractFile_03_Ver2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/StringAndTextProcessing_09/Exercises/LettersChangeNumbers_08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/StringAndTextProcessing_09/Exercises/MultiplyBigNumber_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/StringAndTextProcessing_09/Exercises/ReplaceRepeatingChars_06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/StringAndTextProcessing_09/Exercises/StringExplosion_07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/StringAndTextProcessing_09/Exercises/ValidUsernames_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/StringAndTextProcessing_09/Lab/DigitsLetterAndOthers_05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/StringAndTextProcessing_09/Lab/RepeatStrings_01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/StringAndTextProcessing_09/Lab/ReverseStrings_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/StringAndTextProcessing_09/Lab/Substring_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TechModule4.0/StringAndTextProcessing_09/Lab/TextFilter_04.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Player.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,221 +259,74 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TechModule4_0$d.ic" NAME="d Coverage Results" MODIFIED="1539273128248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Arrays_03.Exercises.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/TechModule4_0$StrongNumber_06.ic" NAME="StrongNumber_06 Coverage Results" MODIFIED="1537826970468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>BasicSyntaxConditionalStatementsAndLoops_01.Exercise.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/TechModule4_0$CondencseArrayToNumber_07.ic" NAME="CondencseArrayToNumber_07 Coverage Results" MODIFIED="1538942079747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Arrays_03.Lab.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/TechModule4_0$BackIn30Minutes_04.ic" NAME="BackIn30Minutes_04 Coverage Results" MODIFIED="1537571213483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>BasicSyntaxConditionalStatementsAndLoops_01.Lab.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/TechModule4_0$TribonacciSequence_04.ic" NAME="TribonacciSequence_04 Coverage Results" MODIFIED="1540117344579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Methods_Functions_04.MoreExercises.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/TechModule4_0$ListManipulation_05_Ver2_Functions.ic" NAME="ListManipulation_05_Ver2_Functions Coverage Results" MODIFIED="1540329491885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Lists_05.Lab.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/TechModule4_0$ForceBook_09.ic" NAME="ForceBook_09 Coverage Results" MODIFIED="1541433339303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>AssociativeArrays_07.Excersise.*</FILTER>
-    </SUITE>
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="241" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="ErrorTreeViewConfiguration">
-    <option name="hideWarnings" value="true" />
-    <option name="HIDE_WARNINGS" value="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="TechModule4.0" />
-  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2119">
-              <caret line="79" column="11" lean-forward="true" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
+            <state relative-caret-position="89">
+              <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27524">
+              <caret line="1041" selection-start-line="1041" selection-end-line="1041" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="ClassWithScanner" />
-        <option value="Arquillian JUnit Test Class" />
-        <option value="ClassWithSC" />
-        <option value="ClassVoidMain" />
-        <option value="Class" />
-        <option value="ClassWithMainMethod" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>fibonacci</find>
-      <find>editor.pro</find>
-      <find>plugins</find>
-      <find>Exe</find>
-      <find>Exercise</find>
-      <find>regex</find>
-      <find>split</find>
-      <find>print a</find>
-      <find>\\[</find>
-      <find>3:1</find>
-      <find>repl</find>
-      <find>print</find>
-      <find>String</find>
-      <find>sort</find>
-      <find>\\</find>
-      <find>flat</find>
-      <find>Collectors.</find>
-      <find>default</find>
-      <find>findFirs</find>
-      <find>Matcher</find>
-      <find>ArrayList::s</find>
-      <find>repla</find>
-      <find>Map.En</find>
-      <find>compar</find>
-      <find>buffe</find>
-      <find>.remove</find>
-      <find>Buffer</find>
-      <find>buff</find>
-      <find>force</find>
-      <find>softun</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>min</replace>
-      <replace>totExpences</replace>
-      <replace>/ 10</replace>
-      <replace>% 10</replace>
-      <replace>&quot;</replace>
-      <replace>'</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>E:\SoftUni\Tech Module 4.0\Java Fundamentals\TechModule4.0\src</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/CarSalesman_03/Main.java" />
-        <option value="$PROJECT_DIR$/src/AssociativeArrays_07/MoreExercises/Snowwhite_04.java" />
-        <option value="$PROJECT_DIR$/src/AssociativeArrays_07/MoreExercises/Snowhite_04WithClass.java" />
-        <option value="$PROJECT_DIR$/src/DataBaseBasics/Main.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_08/Lab/RepeatStrings_01.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_08/Lab/Substring_02.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_08/Lab/ReverseStrings_03.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_08/Lab/TextFilter_04.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_08/Lab/DigitsLetterAndOthers_05.java" />
-        <option value="$PROJECT_DIR$/src/AssociativeArrays_07/MoreExercises/Snowhite_04.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_09/Exercises/ValidUsernames_01.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_09/Exercises/CharacterMultiplier_02.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_09/Exercises/ExtractFile_03.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_09/Exercises/ExtractFile_04_Ver2.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_09/Exercises/ExtractFile_03_Ver2.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_09/Exercises/CaesarCipher_04.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_09/Exercises/MultiplyBigNumber_05.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_09/Exercises/ReplaceRepeatingChars_06.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_09/Exercises/StringExplosion_07.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_09/Exercises/LettersChangeNumbers_08.java" />
-        <option value="$PROJECT_DIR$/src/RegularExpressions/MatchFullName_01.java" />
-        <option value="$PROJECT_DIR$/src/RegularExpressions/MatchDates_03.java" />
-        <option value="$PROJECT_DIR$/src/RegularExpressions/MatchNuimbers_04.java" />
-        <option value="$PROJECT_DIR$/src/RegularExpressions/Lab/MatchNuimbers_04.java" />
-        <option value="$PROJECT_DIR$/src/RegularExpressions/MatchPhoneNumber_02.java" />
-        <option value="$PROJECT_DIR$/src/RegularExpressions/Lab/MatchPhoneNumber_02.java" />
-        <option value="$PROJECT_DIR$/src/RegularExpressions/Exercises/ExtractEmails_01.java" />
-        <option value="$PROJECT_DIR$/src/RegularExpressions/Exercises/Race_03.java" />
-        <option value="$PROJECT_DIR$/src/RegularExpressions/Exercises/SoftUniBarIncome_04.java" />
-        <option value="$PROJECT_DIR$/src/RegularExpressions/Exercises/Furniture_02.java" />
-        <option value="$PROJECT_DIR$/src/RegularExpressions/Exercises/HTMLParser_07.java" />
-        <option value="$PROJECT_DIR$/src/RegularExpressions/Exercises/StarEnigma_05.java" />
-        <option value="$PROJECT_DIR$/src/RegularExpressions/Exercises/NetherRealms_06.java" />
-        <option value="$PROJECT_DIR$/src/RegularExpressions/Exercises/StarEnigma_05_Ver2.java" />
-        <option value="$PROJECT_DIR$/src/Lists_05/Lab/ListManipulationBasics_04.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_09/MoreExercises/ExtractPersonInformation_01.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_09/MoreExercises/AsciiSumator_02.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_09/MoreExercises/HTML.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_09/MoreExercises/Dictionary.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_09/MoreExercises/MorseCodeTranslator_04.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_09/MoreExercises/RageQuite_06.java" />
-        <option value="$PROJECT_DIR$/src/StringAndTextProcessing_09/MoreExercises/WinningTicket_07.java" />
-        <option value="$PROJECT_DIR$/src/Exams/MidExam041118/DungeonestDark_02.java" />
-        <option value="$PROJECT_DIR$/src/Exams/MidExam041118/QuestsJournal_03.java" />
-        <option value="$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/Articles20_04.java" />
-        <option value="$PROJECT_DIR$/src/AssociativeArrays_07/MoreExercises/Snowwhite_04_WithClass.java" />
-        <option value="$PROJECT_DIR$/src/AssociativeArrays_07/MoreExercises/DragonArmy_05.java" />
-        <option value="$PROJECT_DIR$/gitignore" />
-        <option value="$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Deciphering_02.java" />
-        <option value="$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Dictionary_01.java" />
         <option value="$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Main.java" />
       </list>
     </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <option name="showIgnored" value="false" />
-    <option name="showBasicPhasesOnly" value="false" />
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="1920" />
     <option name="height" value="1040" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State />
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Android</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,119 +334,22 @@
               <item name="TechModule4.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="TechModule4.0" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TechModule4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TechModule4.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TechModule4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TechModule4.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ObjectsAndClasses_08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TechModule4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TechModule4.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ObjectsAndClasses_08" type="462c0819:PsiDirectoryNode" />
-              <item name="MoreExercises" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TechModule4.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TechModule4.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ObjectsAndClasses_08" type="462c0819:PsiDirectoryNode" />
-              <item name="MoreExercises" type="462c0819:PsiDirectoryNode" />
-              <item name="TeamWorkProjects_04" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
-          <expand>
-            <path>
-              <item name="TechModule4.0" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="TechModule4" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="TechModule4.0" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="TechModule4" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="0" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="TechModule4.0" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="TechModule4" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="0" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="TechModule4.0" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="TechModule4" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="0" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Arrays_03" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="TechModule4.0" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="TechModule4" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="0" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Arrays_03" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Exercises" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ToolWindowAnt Build.ShowToolbar" value="false" />
-    <property name="ToolWindowDatabase.ShowToolbar" value="false" />
-    <property name="ToolWindowMaven Projects.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543953807140" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last.edited.regexp" value="%Valid%&lt;Valid&gt;valid|10|valid20$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544041963333" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="Methods_Functions_04.Exercises" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ObjectsAndClasses_08.Lab" />
-      <recent name="Lists_05.Exercises" />
-      <recent name="ExamExercises.MidExam2710" />
-      <recent name="Methods_Functions_04.Exercises" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\SoftUni\Tech Module 4.0\Java Fundamentals\TechModule4.0\src\ObjectsAndClasses_08\Lab" />
-      <recent name="H:\SoftUni\Tech Module 4.0\Java Fundamentals\TechModule4.0\src\ObjectsAndClasses_08\MoreExercises" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\SoftUni\Tech Module 4.0\Java Fundamentals\TechModule4.0\src\ObjectsAndClasses_08\Lab" />
-      <recent name="D:\SoftUni\Tech Module 4.0\Java Fundamentals\TechModule4.0\src\Arrays_03\MoreExcersises" />
-      <recent name="D:\JetBrains\TechModule4.0\src" />
-      <recent name="D:\JetBrains\TechModule4.0\BasicSyntaxConditionalStatementsAndLoops_01" />
-      <recent name="D:\JetBrains\TechModule4.0\BasicSyntaxConditionalStatementsAndLoops_01\Lab" />
-    </key>
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -360,14 +363,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DragonArmy_05">
-    <configuration name="AsciiSumator_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringAndTextProcessing_09.MoreExercises.AsciiSumator_02" />
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses_08.MoreExercises.TeamWorkProjects_04.Main" />
       <module name="TechModule4.0" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringAndTextProcessing_09.MoreExercises.*" />
+          <option name="PATTERN" value="ObjectsAndClasses_08.MoreExercises.TeamWorkProjects_04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,935 +377,133 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DragonArmy_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AssociativeArrays_07.MoreExercises.DragonArmy_05" />
-      <module name="TechModule4.0" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AssociativeArrays_07.MoreExercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HTML_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringAndTextProcessing_09.MoreExercises.HTML_05" />
-      <module name="TechModule4.0" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StringAndTextProcessing_09.MoreExercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectsAndClasses_08.Exercises.Articles2_04.Main" />
-      <module name="TechModule4.0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ObjectsAndClasses_08.Exercises.Articles2_04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MorseCodeTranslator_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringAndTextProcessing_09.MoreExercises.MorseCodeTranslator_04" />
-      <module name="TechModule4.0" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StringAndTextProcessing_09.MoreExercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RageQuite_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringAndTextProcessing_09.MoreExercises.RageQuite_06" />
-      <module name="TechModule4.0" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StringAndTextProcessing_09.MoreExercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.AsciiSumator_02" />
-      <item itemvalue="Application.HTML_05" />
-      <item itemvalue="Application.MorseCodeTranslator_04" />
-      <item itemvalue="Application.RageQuite_06" />
-      <item itemvalue="Application.DragonArmy_05" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DragonArmy_05" />
-        <item itemvalue="Application.RageQuite_06" />
-        <item itemvalue="Application.MorseCodeTranslator_04" />
-        <item itemvalue="Application.HTML_05" />
-        <item itemvalue="Application.AsciiSumator_02" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
-  <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_LAMBDA" />
-  </component>
   <component name="SvnConfiguration">
-    <configuration>C:\Users\Denzo\AppData\Roaming\Subversion</configuration>
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="60181009-6730-4c0f-80be-5dd1e7df739b" name="Default" comment="" />
-      <created>1537546598231</created>
+      <changelist id="86b4d923-62e6-4139-b627-527aac4fc418" name="Default Changelist" comment="" />
+      <created>1543965003124</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1537546598231</updated>
-      <workItem from="1539235811613" duration="1152000" />
-      <workItem from="1539269275576" duration="6822000" />
-      <workItem from="1539276287317" duration="14743000" />
-      <workItem from="1539367128596" duration="2380000" />
-      <workItem from="1539522725495" duration="17323000" />
-      <workItem from="1539611103313" duration="22823000" />
-      <workItem from="1539701149014" duration="14579000" />
-      <workItem from="1539720720906" duration="690000" />
-      <workItem from="1539785961493" duration="487000" />
-      <workItem from="1539786474811" duration="28270000" />
-      <workItem from="1539817452185" duration="3484000" />
-      <workItem from="1539845997190" duration="2411000" />
-      <workItem from="1539870761518" duration="5087000" />
-      <workItem from="1539875905589" duration="7031000" />
-      <workItem from="1539891823965" duration="635000" />
-      <workItem from="1539893647328" duration="7686000" />
-      <workItem from="1539954836914" duration="310000" />
-      <workItem from="1540026634917" duration="456000" />
-      <workItem from="1540027252242" duration="3511000" />
-      <workItem from="1540044277273" duration="49000" />
-      <workItem from="1540044478835" duration="2270000" />
-      <workItem from="1540065916846" duration="19839000" />
-      <workItem from="1540086500070" duration="6573000" />
-      <workItem from="1540115795076" duration="9582000" />
-      <workItem from="1540126951636" duration="2788000" />
-      <workItem from="1540130036779" duration="1114000" />
-      <workItem from="1540133576125" duration="844000" />
-      <workItem from="1540135606567" duration="15107000" />
-      <workItem from="1540227532600" duration="13874000" />
-      <workItem from="1540306120534" duration="12279000" />
-      <workItem from="1540323462763" duration="7637000" />
-      <workItem from="1540390053322" duration="2336000" />
-      <workItem from="1540446412716" duration="1059000" />
-      <workItem from="1540480830137" duration="23505000" />
-      <workItem from="1540563711467" duration="29545000" />
-      <workItem from="1540617928934" duration="91435000" />
-      <workItem from="1540797203562" duration="715000" />
-      <workItem from="1540831123410" duration="18460000" />
-      <workItem from="1540880787690" duration="599000" />
-      <workItem from="1540912313047" duration="94000" />
-      <workItem from="1540912505196" duration="10582000" />
-      <workItem from="1540932950513" duration="2705000" />
-      <workItem from="1540938223309" duration="606000" />
-      <workItem from="1541004775364" duration="20707000" />
-      <workItem from="1541063149829" duration="2789000" />
-      <workItem from="1541092257534" duration="15011000" />
-      <workItem from="1541141978108" duration="6856000" />
-      <workItem from="1541189320145" duration="2849000" />
-      <workItem from="1541192197855" duration="6150000" />
-      <workItem from="1541228064367" duration="1194000" />
-      <workItem from="1541229285886" duration="42053000" />
-      <workItem from="1541314661167" duration="72000" />
-      <workItem from="1541314978267" duration="14238000" />
-      <workItem from="1541333040391" duration="1407000" />
-      <workItem from="1541423076115" duration="16306000" />
-      <workItem from="1541520674388" duration="4797000" />
-      <workItem from="1541526186973" duration="5500000" />
-      <workItem from="1541604791080" duration="417000" />
-      <workItem from="1541605380806" duration="2501000" />
-      <workItem from="1541690136153" duration="13041000" />
-      <workItem from="1541776284922" duration="23769000" />
-      <workItem from="1541868623763" duration="3886000" />
-      <workItem from="1541880371982" duration="9066000" />
-      <workItem from="1541955947602" duration="26109000" />
-      <workItem from="1542028826544" duration="30236000" />
-      <workItem from="1542110647282" duration="9853000" />
-      <workItem from="1542122866414" duration="746000" />
-      <workItem from="1542125085023" duration="7176000" />
-      <workItem from="1542210285480" duration="37000" />
-      <workItem from="1542210439248" duration="13150000" />
-      <workItem from="1542229351406" duration="5119000" />
-      <workItem from="1542289925331" duration="10360000" />
-      <workItem from="1542378605562" duration="5315000" />
-      <workItem from="1542444746452" duration="21042000" />
-      <workItem from="1542476560361" duration="2500000" />
-      <workItem from="1542479089298" duration="21352000" />
-      <workItem from="1542639864234" duration="30827000" />
-      <workItem from="1542747871560" duration="317000" />
-      <workItem from="1542815917442" duration="922000" />
-      <workItem from="1542915829021" duration="26000" />
-      <workItem from="1542916911524" duration="1743000" />
-      <workItem from="1542927172201" duration="1551000" />
-      <workItem from="1542999677320" duration="2489000" />
-      <workItem from="1543094752145" duration="83000" />
-      <workItem from="1543138850606" duration="6281000" />
-      <workItem from="1543167407442" duration="855000" />
-      <workItem from="1543186570423" duration="7277000" />
-      <workItem from="1543254465131" duration="814000" />
-      <workItem from="1543323434830" duration="12604000" />
-      <workItem from="1543339435794" duration="16904000" />
-      <workItem from="1543486311363" duration="761000" />
-      <workItem from="1543880098865" duration="3463000" />
-      <workItem from="1543951648562" duration="2157000" />
+      <updated>1543965003124</updated>
+      <workItem from="1543965004470" duration="4153000" />
+      <workItem from="1543991550997" duration="82000" />
+      <workItem from="1543991705811" duration="92000" />
+      <workItem from="1544028337038" duration="12056000" />
     </task>
-    <task id="LOCAL-00001" summary="My work so far in Java">
-      <created>1543148379808</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1543148379808</updated>
-    </task>
-    <task id="LOCAL-00002" summary="My work so far in Java">
-      <created>1543324424760</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1543324424760</updated>
-    </task>
-    <task id="LOCAL-00003" summary="My work so far in Java">
-      <created>1543328979702</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1543328979702</updated>
-    </task>
-    <task id="LOCAL-00004" summary="My work so far in Java">
-      <created>1543335710727</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1543335710727</updated>
-    </task>
-    <task id="LOCAL-00005" summary="My work so far in Java">
-      <created>1543355951314</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1543355951314</updated>
-    </task>
-    <task id="LOCAL-00006" summary="My work so far in Java">
-      <created>1543486624758</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1543486624758</updated>
-    </task>
-    <task id="LOCAL-00007" summary="My work so far in Java">
-      <created>1543487006028</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1543487006028</updated>
-    </task>
-    <task id="LOCAL-00008" summary="My work so far in Java">
-      <created>1543883415362</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1543883415362</updated>
-    </task>
-    <task id="LOCAL-00009" summary="My work so far in Java">
-      <created>1543883524528</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1543883524528</updated>
-    </task>
-    <task id="LOCAL-00010" summary="My work so far in Java">
-      <created>1543951748473</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1543951748473</updated>
-    </task>
-    <task id="LOCAL-00011" summary="My work so far in Java">
-      <created>1543952732257</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1543952732257</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="All_Features_in__Exercises - 2018.10.11 at 19h 41m 18s.xml">
-      <configuration name="All Features in: Exercises" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="848164000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="16383000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Structure" order="0" sideWeight="0.50789475" side_tool="true" weight="0.24562798" />
-      <window_info id="Image Layers" order="1" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26234818" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Learn" order="4" weight="0.33522266" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5063063" side_tool="true" weight="0.4090909" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.49210528" visible="true" weight="0.20575693" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.30694142" />
-      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.5032017" weight="0.37458193" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.4994664" weight="0.32356134" />
-      <window_info anchor="bottom" id="Version Control" order="6" weight="0.11400651" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010672" side_tool="true" visible="true" weight="0.36677814" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4989339" weight="0.29431438" />
-      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32925472" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49839914" weight="0.53528774" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.49893278" weight="0.36677814" />
-      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="GitHub Pull Requests" order="14" sideWeight="0.4994664" weight="0.32899022" />
-      <window_info anchor="bottom" id="Duplicate detector" order="15" weight="0.32998884" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5797571" weight="0.48417133" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.48603353" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4202429" side_tool="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32960895" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" auto_hide="true" id="Maven Projects" order="1" show_stripe_button="false" type="SLIDING" weight="0.32955465" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Coverage" order="7" sideWeight="0.5009488" side_tool="true" weight="0.16204691" />
-      <window_info anchor="right" x="0" y="0" width="112" height="486" id="Documentation" order="8" side_tool="true" weight="0.15682968" />
-      <window_info anchor="right" id="Database" order="9" show_stripe_button="false" weight="0.2145749" />
-      <window_info anchor="right" auto_hide="true" id="Ant Build" order="10" show_stripe_button="false" type="SLIDING" weight="0.24939272" />
-      <window_info anchor="right" id="Maven" order="11" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Structure" order="0" sideWeight="0.50789475" side_tool="true" weight="0.24562798" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Learn" order="4" weight="0.33522266" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5063063" side_tool="true" weight="0.4090909" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49210528" weight="0.3657056" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.30694142" />
-      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.50373137" weight="0.4295011" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" weight="0.32384342" />
-      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.20390455" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4989339" weight="0.29718006" />
-      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32925472" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32740214" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="12" sideWeight="0.49626866" visible="true" weight="0.29268292" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" auto_hide="true" id="Maven Projects" order="1" show_stripe_button="false" type="SLIDING" weight="0.32955465" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Coverage" order="7" sideWeight="0.5009488" side_tool="true" weight="0.16204691" />
-      <window_info anchor="right" x="0" y="0" width="112" height="486" id="Documentation" order="8" side_tool="true" weight="0.15682968" />
-      <window_info anchor="right" id="Database" order="9" show_stripe_button="false" weight="0.2145749" />
-      <window_info anchor="right" auto_hide="true" id="Ant Build" order="10" show_stripe_button="false" type="SLIDING" weight="0.24939272" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="My work so far in Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="My work so far in Java" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <default-breakpoints>
-        <breakpoint suspend="NONE" type="java-exception">
-          <properties>
-            <option name="NOTIFY_CAUGHT" value="false" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Main.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Main.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Main.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
     </breakpoint-manager>
   </component>
-  <component name="XPathView.XPathProjectComponent">
-    <history />
-    <find-history />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateCodeFragment">
-      <expression>
-        <expression-string>text = &quot; stop&quot;;</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>text = sc.nextLine();</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>employee.setEmail(data[3]);
- System.out.println(employee);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>employee.setEmail(data[4]);
- System.out.println(employee);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>employee.setEmail(data[4]);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>int n = Integer.parseInt(sc.nextLine());
-
- System.out.println(n);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Map&lt;String, Department&gt; departments = new LinkedHashMap&lt;&gt;();
-
-        /*name, salary, position, department, email and age*/
-        while (n &gt; 0) {
-            String[] data = sc.nextLine().split(&quot;\\s+&quot;);
-            Employee employee = new Employee(
-                    data[0], Double.parseDouble(data[1]), data[2], data[3]);
-
-            if (data.length == 6) {
-                employee.setEmail(data[4]);
-                employee.setAge(Integer.parseInt(data[5]));
-            } else if (data.length == 5 &amp;&amp; data[4].contains(&quot;@&quot;)) {
-                employee.setEmail(data[4]);
-            } else if (data.length != 4) {
-                employee.setAge(Integer.parseInt(data[4]));
-            }
-
-            String departmentName = employee.getDepartment();
-            departments.putIfAbsent(departmentName, new Department(data[3]));
-            departments.get(departmentName).addEmployee(employee);
-        }</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>departments.putIfAbsent(departmentName, new Department(data[3]));
-            departments.get(departmentName).addEmployee(employee);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Scanner sc = new Scanner(System.in);
-
-        int n = Integer.parseInt(sc.nextLine());
-        Map&lt;String, Department&gt; departments = new LinkedHashMap&lt;&gt;();
-
-        System.out.println(n);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="breakpointCondition">
-      <expression>
-        <expression-string>int i = 346;</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>int i = 346</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>int i == 346</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>int i = 347</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Methods_Functions_04/Exercises/TopNumber_10.java:32</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>i==341</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="watch">
-      <expression>
-        <expression-string>17</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>50</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>i = 341</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>index = 17</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>50</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="customField">
-      <expression>
-        <expression-string>341</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DataBaseBasics/Main.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="27524">
+          <caret line="1041" selection-start-line="1041" selection-end-line="1041" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegularExpressions/Exercises/Furniture_02.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/BiConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="107">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegularExpressions/Exercises/NetherRealms_06.java">
+    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegularExpressions/Exercises/SoftUniBarIncome_04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegularExpressions/Exercises/HTMLParser_07.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegularExpressions/Exercises/StarEnigma_05_Ver2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegularExpressions/Exercises/StarEnigma_05.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#decryptMsg#0;class#StarEnigma_05#0" />
-            <element signature="method#countLetters#0;class#StarEnigma_05#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TechModule4.0.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegularExpressions/Exercises/Race_03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegularExpressions/Exercises/ExtractEmails_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lists_05/Lab/ListManipulationBasics_04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StringAndTextProcessing_09/MoreExercises/ExtractPersonInformation_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="53" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StringAndTextProcessing_09/MoreExercises/AsciiSumator_02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="19" column="68" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
-          <folding>
-            <element signature="method#main#0;class#AsciiSumator_02#0" />
-            <element signature="method#checkText#0;class#AsciiSumator_02#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StringAndTextProcessing_09/MoreExercises/Dictionary.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/regex/Matcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="603" selection-start-line="603" selection-end-line="603" />
-          <folding>
-            <element signature="e#20336#20337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="298" selection-start-line="298" selection-end-line="298" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="166" selection-start-line="166" selection-end-line="166" />
-          <folding>
-            <element signature="e#5502#5503#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StringAndTextProcessing_09/MoreExercises/MorseCodeTranslator_04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StringAndTextProcessing_09/MoreExercises/HTML_05.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-          <folding>
-            <element signature="e#2964#2965#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="689" column="16" selection-start-line="689" selection-start-column="16" selection-end-line="689" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StringAndTextProcessing_09/MoreExercises/RageQuite_06.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StringAndTextProcessing_09/MoreExercises/WinningTicket_07.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StringAndTextProcessing_09/MoreExercises/TreasureFinder_03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="71">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exams/MidExam041118/DungeonestDark_02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exams/MidExam041118/QuestsJournal_03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AssociativeArrays_07/Lab/Largest3Numbers_05.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/OpinionPoll_03.java" />
-    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/OrderByAge_07.java" />
-    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/Students_05.java" />
-    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/VehicleCatalogue_06.java" />
-    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/OpinionPoll_03/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/RawData_02/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/Articles20_04.java" />
-    <entry file="file://$PROJECT_DIR$/exit">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-720" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/Articles_02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/Exercises/AdvertisementMessage_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AssociativeArrays_07/MoreExercises/Snowwhite_04_WithClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AssociativeArrays_07/MoreExercises/DragonArmy_05.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="97" column="13" lean-forward="true" selection-end-line="130" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExamExercises/Hogswatch_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExamExersises/Hogswatch_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExamExercises/UpgradedMatcher_08.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Deciphering_02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#385#557#1" />
-            <element signature="method#checkForValidBook#0;class#Deciphering_02#0" />
-            <element signature="method#massage#0;class#Deciphering_02#0" />
-            <element signature="method#decryptCipher#0;class#Deciphering_02#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExamExercises/FinalDemoExam_01_12/Dictionary_01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-          <folding>
-            <element signature="method#main#0;class#Dictionary_01#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AssociativeArrays_07/Excersise/ForceBook_09.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="51" column="33" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AssociativeArrays_07/Excersise/SoftUniExamResults_10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ObjectsAndClasses_08/MoreExercises/TeamWorkProjects_04/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2119">
-          <caret line="79" column="11" lean-forward="true" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
+        <state relative-caret-position="89">
+          <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1371,7 +571,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>10</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1382,17 +582,6 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
