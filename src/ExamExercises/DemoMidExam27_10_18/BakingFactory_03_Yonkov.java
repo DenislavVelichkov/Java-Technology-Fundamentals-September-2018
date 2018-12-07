@@ -1,4 +1,4 @@
-package ExamExercises.DemoMidExam2710;
+package ExamExercises.DemoMidExam27_10_18;
 
 import java.util.Arrays;
 import java.util.Scanner;
