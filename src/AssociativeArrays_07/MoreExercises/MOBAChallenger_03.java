@@ -72,10 +72,14 @@ public class MOBAChallenger_03 {
                 String player2 = tokens[1];
 
                 Optional<Player> player1ReadyToBattle =
-                        playerPool.stream().filter(player -> player.getName().equals(player1))
+                        playerPool
+                                .stream()
+                                .filter(player -> player.getName().equals(player1))
                                 .findFirst();
                 Optional<Player> player2ReadyToBattle =
-                        playerPool.stream().filter(player -> player.getName().equals(player2))
+                        playerPool
+                                .stream()
+                                .filter(player -> player.getName().equals(player2))
                                 .findFirst();
 
                 if (player1ReadyToBattle.isPresent() &&
@@ -100,8 +104,12 @@ public class MOBAChallenger_03 {
 
         playerPool.stream()
                 .sorted((o1, o2) -> {
-                    int count1 = o1.getTier().values().stream().mapToInt(value -> value).sum();
-                    int count2 = o2.getTier().values().stream().mapToInt(value -> value).sum();
+                    int count1 =
+                            o1.getTier().values()
+                            .stream().mapToInt(value -> value).sum();
+                    int count2 =
+                            o2.getTier().values()
+                                    .stream().mapToInt(value -> value).sum();
 
                     int result = Integer.compare(count2, count1);
                     if (result != 0) return result;
@@ -109,8 +117,8 @@ public class MOBAChallenger_03 {
 
                 })
                 .forEach(player -> {
-                    int sum =
-                            player.getTier().values().stream().mapToInt(value -> value).sum();
+                    int sum = player.getTier().values()
+                                    .stream().mapToInt(value -> value).sum();
 
                     System.out.printf("%s: %d skill%n", player.getName(), sum);
                     player.getTier().entrySet().stream()
