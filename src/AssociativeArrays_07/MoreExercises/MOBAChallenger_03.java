@@ -41,14 +41,11 @@ public class MOBAChallenger_03 {
             tier
                     .entrySet()
                     .stream()
-                    .sorted((o1, o2) -> {
-                        int result = Integer.compare(o2.getValue(), o1.getValue());
-                        if (result != 0) {
-                            return result;
-                        } else {
-                            return o1.getKey().compareTo(o2.getKey());
-                        }
-                    })
+                    .sorted(Map.Entry.<String, Integer>comparingByValue((o1, o2) -> {
+                        int result = Integer.compare(o2, o1);
+                        if (result != 0) return result;
+                        else return 1;
+                    }).thenComparing(Map.Entry.comparingByKey()))
                     .forEach(o -> {
                         sortedMap.putIfAbsent(o.getKey(), 0);
                         sortedMap.put(o.getKey(), o.getValue());
@@ -81,32 +78,28 @@ public class MOBAChallenger_03 {
                 String tier = tokens[1];
                 int skillPoints = Integer.parseInt(tokens[2]);
 
-                if (playerPool.size() == 0) {
-                    Player user = new Player(playerName, tier, skillPoints);
-                    playerPool.add(user);
-                    continue;
-                }
-
-                boolean isTrue = false;
+                boolean isPlayerPresent = false;
                 for (Player pl : playerPool) {
                     if (pl.getName().contains(playerName)) {
                         for (Map.Entry<String, Integer> entry : pl.getTier().entrySet()) {
-                            if (entry.getValue() < skillPoints &&
-                                    entry.getKey().contains(tier)) {
-                                pl.setTier(entry.getKey(), skillPoints);
-                            } else if (!entry.getKey().contains(tier)) {
+                            if (entry.getKey().contains(tier)) {
+                                if (entry.getValue() <= skillPoints) {
+                                    pl.setTier(entry.getKey(), skillPoints);
+                                }
+                            } else {
                                 pl.setTier(tier, skillPoints);
-                                isTrue = true;
+                                isPlayerPresent = true;
                                 break;
                             }
                         }
                     }
                 }
 
-                if (!isTrue) {
+                if (!isPlayerPresent) {
                     Player user = new Player(playerName, tier, skillPoints);
                     playerPool.add(user);
                 }
+
             } else {
                 String[] tokens = line.split(" vs ");
                 String player1 = tokens[0];
@@ -121,54 +114,59 @@ public class MOBAChallenger_03 {
                         battle.add(player);
                     }
                 }
-                if (battle.size() != 2) break;
+
+                if (battle.size() != 2) continue;
+
                 Player plA = battle.get(0);
                 Player plB = battle.get(1);
-
-                int strLength =
+               /* int strLength =
                         Math.max(battle.get(0).getTier().size(),
-                                battle.get(1).getTier().size());
+                                battle.get(1).getTier().size());*/
 
-                if (plA.getTier().size() == strLength) {
-                    plB.getTier().forEach((key, value) -> {
-                        if (plA.getTier().keySet().contains(key)) {
+                /*if (plA.getTier().size() == strLength) {*/
+                for (Map.Entry<String, Integer> entry : plA.getTier().entrySet()) {
+                    if (plB.getTier().containsKey(entry.getKey())) {
+                        int count1 = plA.getTier().values().stream().mapToInt(v -> v).sum();
+                        int count2 = plB.getTier().values().stream().mapToInt(v -> v).sum();
 
-                            plA.getTier().values().forEach(v -> {
-                                if (v > plB.getTier().get(key)) {
-                                    playerPool.remove(plB);
-                                } else if (v < value) {
-                                    playerPool.remove(plA);
-                                }
-                            });
+                        if (count1 > count2) {
+                            playerPool.remove(plB);
+                        } else if (count1 < count2) {
+                            playerPool.remove(plA);
                         }
-                    });
-                } else {
-                    plA.getTier().forEach((key, value) -> {
-                        if (plB.getTier().keySet().contains(key)) {
 
-                            plB.getTier().values().forEach(v -> {
-                                if (v > plA.getTier().get(key)) {
-                                    playerPool.remove(plA);
-                                } else if (v < value) {
-                                    playerPool.remove(plB);
-                                }
-                            });
-                        }
-                    });
+                    }
                 }
             }
+                /*} else {
+                    plA.getTier().forEach((key, value) -> {
+                        if (plB.getTier().containsKey(key)) {
+                            int count1 = plA.getTier().values().stream().mapToInt(v -> value).sum();
+                            int count2 = plB.getTier().values().stream().mapToInt(v -> value).sum();
+
+                            if (count1 > count2) {
+                                playerPool.remove(plB);
+                            }
+                            if (count1 < count2) {
+                                playerPool.remove(plA);
+                            }
+
+                        }
+                    });
+                }*/
+
         }
 
         playerPool.stream()
-                .sorted((o1, o2) -> {
+                    .sorted((o1, o2) -> {
                     int count1 = o1.getTier().values().stream().mapToInt(value -> value).sum();
                     int count2 = o2.getTier().values().stream().mapToInt(value -> value).sum();
 
                     int result = Integer.compare(count2, count1);
                     if (result != 0) return result;
-                    else return o1.getName().compareTo(o2.getName());
-                })
+                    else return o1.getName().compareToIgnoreCase(o2.getName());
 
+                })
                 .forEach(player -> {
                     int sum = player.getTier().values().stream().mapToInt(value -> value).sum();
                     System.out.printf("%s: %d skill%n", player.getName(), sum);
@@ -177,4 +175,4 @@ public class MOBAChallenger_03 {
 
     }
 }
-
+/**/
