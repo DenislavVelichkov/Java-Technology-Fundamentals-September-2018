@@ -95,12 +95,17 @@ public class Main {
 
         System.out.println("Teams to disband:");
         team.entrySet().stream()
-                .sorted((o1, o2) -> o1.getKey().compareToIgnoreCase(o2.getKey()))
+                .sorted((o1, o2) -> {
+                    int result = o1.getKey().compareToIgnoreCase(o2.getKey());
+                    if (result != 0) return result;
+                    else return 1;
+                })
                 .forEach(entry -> {
                     if (entry.getValue().size() < 2) {
                         System.out.printf("%s%n", entry.getKey());
                     }
                 });
+
     }
 
     private static void accept(Map.Entry<String, List<Player>> input) {
@@ -118,7 +123,11 @@ public class Main {
             List<Player> toBe2nd =
                     input.getValue()
                             .stream()
-                            .sorted((o1, o2) -> o1.getName().compareToIgnoreCase(o2.getName()))
+                            .sorted((o1, o2) -> {
+                                int result = o1.getName().compareToIgnoreCase(o2.getName());
+                                if (result != 0) return result;
+                                else return 1;
+                            })
                             .filter(player -> player.getType().equals("minion"))
                             .collect(Collectors.toList());
 

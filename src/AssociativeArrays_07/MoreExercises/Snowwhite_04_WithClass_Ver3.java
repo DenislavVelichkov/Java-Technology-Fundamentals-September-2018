@@ -2,7 +2,7 @@ package AssociativeArrays_07.MoreExercises;
 
 import java.util.*;
 
-public class Snowwhite_04_WithClass {
+public class Snowwhite_04_WithClass_Ver3 {
 
     static class Dwarf {
         private String name;
