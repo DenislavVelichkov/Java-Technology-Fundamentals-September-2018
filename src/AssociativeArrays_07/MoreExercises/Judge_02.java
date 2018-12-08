@@ -1,7 +1,9 @@
 package AssociativeArrays_07.MoreExercises;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class Judge_02 {
     static class Player {
@@ -9,47 +11,35 @@ public class Judge_02 {
         private String contest;
         private Integer points;
 
-        public Player(String username, String contest, int points) {
+        Player(String username, String contest, Integer points) {
             this.username = username;
             this.contest = contest;
             this.points = points;
-
         }
 
-        public Player() {
-        }
-
-        public String getUsername() {
+        String getUsername() {
             return username;
         }
 
-        public void setUsername(String username) {
-            this.username = username;
-        }
-
-        public String getContest() {
+        String getContest() {
             return contest;
         }
 
-        public void setContest(String contest) {
-            this.contest = contest;
-        }
-
-        public Integer getPoints() {
+        Integer getPoints() {
             return points;
         }
 
-        public void setPoints(int points) {
+        void setPoints(Integer points) {
             this.points = Math.max(this.points, points);
         }
     }
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         Map<String, List<Player>> contestDB = new LinkedHashMap<>();
         Map<String, Integer> totalPointsDB = new LinkedHashMap<>();
-        String line = sc.nextLine();
+        String line = reader.readLine();
 
         while (!line.equals("no more time")) {
             String[] text = line.split(" -> ");
@@ -60,82 +50,62 @@ public class Judge_02 {
 
 
             contestDB.putIfAbsent(contest, new ArrayList<>());
-            boolean isPresent = false;
+            final boolean[] playerIsPresent = {false};
 
-            for (Map.Entry<String, List<Player>> entry : contestDB.entrySet()) {
-                Optional<Player> playerToAdd =
-                        entry.getValue().stream()
+            contestDB.forEach((key, value) -> {
+                Optional<Player> playerToChangeStats =
+                        value.stream()
                                 .filter(player -> player.getUsername().equals(username) &&
                                         player.getContest().equals(contest))
                                 .findFirst();
-                if (playerToAdd.isPresent()) {
-                    playerToAdd.get().setPoints(points);
-                    int pointsDifference =
-                           Math.abs(totalPointsDB.get(playerToAdd.get().getUsername()) -
-                                   playerToAdd.get().getPoints());
 
-                    totalPointsDB.put(playerToAdd.get().getUsername(),
-                            totalPointsDB.get(playerToAdd.get().getUsername()) + pointsDifference);
-                    isPresent = true;
+                if (playerToChangeStats.isPresent()) {
+                    playerToChangeStats.get().setPoints(points);
+
+                    int differenceInPoints = playerToChangeStats.get().getPoints() -
+                            totalPointsDB.get(playerToChangeStats.get().getUsername());
+                    int pointsDifference = differenceInPoints < 0 ? 0 : differenceInPoints;
+
+                    totalPointsDB.put(playerToChangeStats.get().getUsername(),
+                            totalPointsDB.get(
+                                    playerToChangeStats.get().getUsername()) + pointsDifference);
+                    playerIsPresent[0] = true;
                 }
-            }
-            if (!isPresent) {
+            });
+
+            if (!playerIsPresent[0]) {
                 Player newPlayer = new Player(username, contest, points);
                 contestDB.get(contest).add(newPlayer);
                 totalPointsDB.putIfAbsent(newPlayer.getUsername(), 0);
-
-                for (Map.Entry<String, Integer> entry : totalPointsDB.entrySet()) {
-                    if (entry.getKey().equals(newPlayer.getUsername())) {
-                        totalPointsDB.put(newPlayer.getUsername(),
-                                totalPointsDB.get(newPlayer.getUsername()) +
-                                        newPlayer.getPoints());
-                        break;
-                    }
-                }
+                totalPointsDB.put(newPlayer.getUsername(),
+                        (newPlayer.getPoints() + totalPointsDB.get(newPlayer.getUsername())));
             }
 
-            line = sc.nextLine();
+            line = reader.readLine();
         }
 
-        contestDB.entrySet().stream()
-                 .sorted((o1, o2) -> {
-                     int result = Integer.compare(o2.getValue().size(), o1.getValue().size());
-                     if (result != 0) return result;
-                     else return 1;
-                 })
-                .forEach(entry -> {
-                    System.out.printf("%s: %d participants%n", entry.getKey(), entry.getValue().size());
+        final int[] counter = new int[1];
+        contestDB.forEach((key, value) -> {
+            System.out.printf("%s: %d participants%n", key, value.size());
 
-                   List<Player>sortedEntry = entry.getValue().stream()
-                            .sorted((o1, o2) -> {
-                                int result = Integer.compare(o2.getPoints(), o1.getPoints());
-                                if (result != 0) return result;
-                                else return o1.getUsername().compareToIgnoreCase(o2.getUsername());
-                            })
-                            .collect(Collectors.toList());
+            counter[0] = 0;
+            value.stream()
+                    .sorted((o1, o2) -> {
+                        int result = Integer.compare(o2.getPoints(), o1.getPoints());
+                        if (result != 0) return result;
+                        else return o1.getUsername().compareTo(o2.getUsername());
+                    })
+                    .forEach(player -> System.out.printf("%d. %s <::> %d%n",
+                            ++counter[0], player.getUsername(), player.getPoints()));
+        });
 
-                   int counter = 1;
-                    for (Player player : sortedEntry) {
-                        System.out.printf("%d. %s <::> %d%n",
-                                counter++, player.getUsername(), player.getPoints());
-                    }
-                });
-
-        Map<String, Integer> sortedTotalPoints = new LinkedHashMap<>();
+        System.out.println("Individual standings:");
+        counter[0] = 0;
         totalPointsDB.entrySet().stream()
                 .sorted(Map.Entry.<String, Integer>comparingByValue()
                         .reversed()
-                .thenComparing(Map.Entry.comparingByKey()))
-                .forEach(entry -> {
-                    sortedTotalPoints.putIfAbsent(entry.getKey(), 0);
-                    sortedTotalPoints.put(entry.getKey(), entry.getValue());
-                });
-
-        System.out.println("Individual standings:");
-        int counter = 1;
-        for (Map.Entry<String, Integer> entry : sortedTotalPoints.entrySet()) {
-            System.out.printf("%d. %s -> %d%n",
-                    counter++, entry.getKey(), entry.getValue());
-        }
+                        .thenComparing(Map.Entry.comparingByKey()))
+                .forEach(entry -> System.out.printf("%d. %s -> %d%n",
+                        ++counter[0], entry.getKey(), entry.getValue()));
     }
 }
