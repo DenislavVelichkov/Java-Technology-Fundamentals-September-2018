@@ -49,7 +49,6 @@ public class Judge_02 {
 
         Map<String, List<Player>> contestDB = new LinkedHashMap<>();
         Map<String, Integer> totalPointsDB = new LinkedHashMap<>();
-
         String line = sc.nextLine();
 
         while (!line.equals("no more time")) {
@@ -61,6 +60,7 @@ public class Judge_02 {
 
 
             contestDB.putIfAbsent(contest, new ArrayList<>());
+            boolean isPresent = false;
 
             for (Map.Entry<String, List<Player>> entry : contestDB.entrySet()) {
                 Optional<Player> playerToAdd =
@@ -70,26 +70,27 @@ public class Judge_02 {
                                 .findFirst();
                 if (playerToAdd.isPresent()) {
                     playerToAdd.get().setPoints(points);
-//                    contestDB.get(entry.getKey()).add(playerToAdd.get());
                     int pointsDifference =
-                            Math.max(totalPointsDB.get(playerToAdd.get().getUsername()),
-                                    playerToAdd.get().getPoints());
+                           Math.abs(totalPointsDB.get(playerToAdd.get().getUsername()) -
+                                   playerToAdd.get().getPoints());
 
                     totalPointsDB.put(playerToAdd.get().getUsername(),
                             totalPointsDB.get(playerToAdd.get().getUsername()) + pointsDifference);
+                    isPresent = true;
                 }
             }
+            if (!isPresent) {
+                Player newPlayer = new Player(username, contest, points);
+                contestDB.get(contest).add(newPlayer);
+                totalPointsDB.putIfAbsent(newPlayer.getUsername(), 0);
 
-            Player newPlayer = new Player(username, contest, points);
-            contestDB.get(contest).add(newPlayer);
-            totalPointsDB.putIfAbsent(newPlayer.getUsername(), 0);
-
-            for (Map.Entry<String, Integer> entry : totalPointsDB.entrySet()) {
-                if (entry.getKey().equals(newPlayer.getUsername())) {
-                    totalPointsDB.put(newPlayer.getUsername(),
-                            totalPointsDB.get(newPlayer.getUsername()) +
-                                    newPlayer.getPoints());
-                    break;
+                for (Map.Entry<String, Integer> entry : totalPointsDB.entrySet()) {
+                    if (entry.getKey().equals(newPlayer.getUsername())) {
+                        totalPointsDB.put(newPlayer.getUsername(),
+                                totalPointsDB.get(newPlayer.getUsername()) +
+                                        newPlayer.getPoints());
+                        break;
+                    }
                 }
             }
 
@@ -130,7 +131,7 @@ public class Judge_02 {
                     sortedTotalPoints.put(entry.getKey(), entry.getValue());
                 });
 
-        System.out.println("Individual Standings:");
+        System.out.println("Individual standings:");
         int counter = 1;
         for (Map.Entry<String, Integer> entry : sortedTotalPoints.entrySet()) {
             System.out.printf("%d. %s -> %d%n",
