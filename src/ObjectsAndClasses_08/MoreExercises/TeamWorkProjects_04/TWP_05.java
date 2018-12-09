@@ -116,22 +116,22 @@ public class TWP_05 {
         }
 
         team.entrySet().stream()
-                .filter(ent -> ent.getValue().size() > 1)
+                .filter(entry -> entry.getValue().size() > 1)
                 .sorted((o1, o2) -> {
                     int result =
                             Integer.compare(o2.getValue().size(), o1.getValue().size());
                     return result != 0 ? result : o1.getKey().compareTo(o2.getKey());
                 })
                 .forEach(entry -> {
-                    entry.getValue().size();
                     System.out.printf("%s%n", entry.getKey());
-                    Player addLeader = leaderList(entry);
+
+                    Player addLeader = findTheLeader(entry);
                     System.out.printf("- %s%n", addLeader.getName());
 
                     entry
                             .getValue()
                             .stream()
-                            .filter(en -> !en.getType().equals("leader"))
+                            .filter(player -> !player.getType().equals("leader"))
                             .sorted(Comparator.comparing(Player::getName))
                             .forEach(value -> System.out.printf("-- %s%n", value.getName()));
                 });
@@ -139,16 +139,19 @@ public class TWP_05 {
         System.out.println("Teams to disband:");
         team.entrySet()
                 .stream()
+                .filter(entry -> entry.getValue().size() <= 1)
                 .sorted(Comparator.comparing(Map.Entry::getKey))
-                .filter(ent -> ent.getValue().size() <= 1)
-                .findFirst()
-                .ifPresent(v -> System.out.printf("%s%n", v.getKey()));
+                .forEach(k -> System.out.printf("%s%n", k.getKey()));
     }
 
-    private static Player leaderList(Map.Entry<String, List<Player>> entry) {
-        Optional<Player> theLeader = entry.getValue().stream()
-                .filter(ent -> ent.getType().equals("leader"))
-                .findFirst();
+    private static Player findTheLeader(Map.Entry<String, List<Player>> entry) {
+        Optional<Player> theLeader =
+                entry
+                        .getValue()
+                        .stream()
+                        .filter(ent -> ent.getType().equals("leader"))
+                        .findFirst();
+
         return theLeader.orElse(null);
     }
 }
