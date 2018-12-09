@@ -39,12 +39,11 @@ public class NetherRealms_06 {
                     System.out.printf("%s - %.0f health, %.2f damage%n",
                             value.getKey(), value.getValue(), dmg);
                         });
-
     }
 
     private static double addDamage(String demon) {
         double sum = 0d;
-        Pattern findDmg = Pattern.compile("[-+.0-9]+");
+        Pattern findDmg = Pattern.compile("(\\+{1}|\\-{1}(?=\\d))?\\d+\\.?\\d*");
         String[] arithmetic = demon.split("[^/*]+");
 
         Matcher digits = findDmg.matcher(demon);
