@@ -4,14 +4,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        final boolean[] isPresent = {false};
         int n = Integer.parseInt(reader.readLine());
         Map<String, List<Player>> team = new LinkedHashMap<>();
 
@@ -21,30 +19,29 @@ public class Main {
             String teamLeader = text[0];
             String teamName = text[1];
 
-            Player player = new Player(teamLeader);
             if (team.containsKey(teamName)) {
                 System.out.printf("Team %s was already created!%n", teamName);
                 continue;
             }
 
             team.putIfAbsent(teamName, new ArrayList<>());
+            boolean playerIsPresent = false;
 
-            for (Map.Entry<String, List<Player>> entry : team.entrySet()) {
-                entry.getValue()
-                        .stream()
-                        .anyMatch(pl -> {
-                            if (pl.getName().equals(teamLeader)) {
-                                return isPresent[0] = true;
-                            } else {
-                                return isPresent[0] = false;
-                            }
-                        });
+            for (List<Player> value : team.values()) {
+                Optional<Player> isPlayerPresent =
+                        value.stream()
+                                .filter(player -> player.getType().equals(teamLeader))
+                                .findFirst();
+                if (isPlayerPresent.isPresent()) {
+                    System.out.printf("%s cannot create another team!%n",
+                            isPlayerPresent.get().getName());
+                    playerIsPresent = true;
+                    break;
+                }
             }
 
-            if (isPresent[0]) {
-                System.out.printf("%s cannot create another team!%n",
-                        player.getName());
-            } else {
+            if (!playerIsPresent) {
+                Player player = new Player(teamLeader, teamName);
                 team.get(teamName).add(player);
                 player.setType("leader");
                 System.out.printf("Team %s has been created by %s!%n",
@@ -52,7 +49,6 @@ public class Main {
             }
         }
 
-        isPresent[0] = false;
         while (true) {
             String line = reader.readLine();
             if (line.equals("end of assignment")) break;
@@ -60,24 +56,30 @@ public class Main {
             String[] text = line.split("->");
             String user = text[0];
             String teamToJoin = text[1];
-            Player player = new Player(user);
 
             if (!team.containsKey(teamToJoin)) {
                 System.out.printf("Team %s does not exist!%n", teamToJoin);
                 continue;
             }
 
-            team.values().forEach(players -> {
-                for (Player pl : players) {
-                    if (pl.getName().equals(user)) {
-                        isPresent[0] = true;
-                        System.out.printf("Member %s cannot join team %s!%n",
-                                user, teamToJoin);
-                    }
-                }
-            });
+            boolean playerIsPresent = false;
+            for (List<Player> value : team.values()) {
+                Optional<Player> isPlayerPresent =
+                        value
+                                .stream()
+                                .filter(player -> player.getName().equals(user))
+                                .findFirst();
 
-            if (!isPresent[0]) {
+                if (isPlayerPresent.isPresent()) {
+                    System.out.printf("Member %s cannot join team %s!%n",
+                            isPlayerPresent.get().getName(), teamToJoin);
+                    playerIsPresent = true;
+                    break;
+                }
+            }
+
+            if (!playerIsPresent) {
+                Player player = new Player(user, teamToJoin);
                 team.get(teamToJoin).add(player);
                 player.setType("minion");
             }
@@ -87,54 +89,41 @@ public class Main {
                 .sorted((o1, o2) -> {
                     int result =
                             Integer.compare(o2.getValue().size(), o1.getValue().size());
-                    if (result != 0) return result;
-                    else return 1;
+                    return result != 0 ? result : o1.getKey().compareTo(o2.getKey());
                 })
-                .sorted(Map.Entry.comparingByKey())
-                .forEach(Main::accept);
+                .forEach(entry -> {
+                    if (entry.getValue().size() > 1) {
+                        System.out.printf("%s%n", entry.getKey());
+
+                        entry
+                                .getValue()
+                                .stream()
+                                .sorted(Comparator.comparing(Player::getName)
+                                        .thenComparing(Player::getType))
+                                .forEach(value -> {
+                                    String teamToCheck = entry.getKey();
+                                    if (value.getType().equals("leader") &&
+                                            value.getTeam().equals(teamToCheck)) {
+                                        System.out.printf("- %s%n",
+                                                value.getName());
+                                    } else {
+                                        System.out.printf("-- %s%n", value.getName());
+                                    }
+                                });
+                    }
+                });
 
         System.out.println("Teams to disband:");
         team.entrySet().stream()
                 .sorted((o1, o2) -> {
-                    int result = o1.getKey().compareToIgnoreCase(o2.getKey());
+                    int result = Integer.compare(o2.getValue().size(), o1.getValue().size());
                     if (result != 0) return result;
-                    else return 1;
+                    else return o1.getKey().compareTo(o2.getKey());
                 })
                 .forEach(entry -> {
-                    if (entry.getValue().size() < 2) {
+                    if (entry.getValue().size() <= 1) {
                         System.out.printf("%s%n", entry.getKey());
                     }
                 });
-
-    }
-
-    private static void accept(Map.Entry<String, List<Player>> input) {
-        if (!(input.getValue().size() < 2)) {
-            System.out.printf("%s%n", input.getKey());
-
-            Optional<Player> toBe =
-                    input.getValue()
-                            .stream()
-                            .filter(player -> player.getType().equals("leader"))
-                            .findFirst();
-
-            System.out.printf("- %s%n", toBe.get().getName());
-
-            List<Player> toBe2nd =
-                    input.getValue()
-                            .stream()
-                            .sorted((o1, o2) -> {
-                                int result = o1.getName().compareToIgnoreCase(o2.getName());
-                                if (result != 0) return result;
-                                else return 1;
-                            })
-                            .filter(player -> player.getType().equals("minion"))
-                            .collect(Collectors.toList());
-
-            toBe2nd.forEach(player -> {
-                System.out.printf("-- %s%n", player.getName());
-            });
-
-        }
     }
 }
