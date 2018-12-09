@@ -12,21 +12,15 @@ public class ExtractEmails_01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String[] text = sc.nextLine().split("\\s+");
-        List<String> listOfEmails = Arrays.asList(text);
-        List<String> foundEmails = new ArrayList<>();
+        String text = sc.nextLine();
 
-        listOfEmails.forEach(e -> {
-            Pattern pattern = Pattern.compile("(?<user>[A-Za-z0-9](\\.|-)\\w+)@(?<host>\\w+\\.?\\w+(?=\\.)\\.\\w+)");
-            Matcher matcher = pattern.matcher(e);
+        Pattern pattern =
+        Pattern.compile
+("(?<!\\.)(?<!\\-)(?<!\\_)\\b(([A-Za-z]+\\.?\\-?\\_?[A-Za-z0-9]+)@\\b[A-Za-z0-9]+\\.?\\-?[A-Za-z0-9]+\\b\\.?\\-?[A-Za-z]+\\.?\\-?[A-Za-z]+)\\b");
+        Matcher matcher = pattern.matcher(text);
 
-            while (matcher.find()) {
-                if (!foundEmails.contains(matcher.group())) {
-                    foundEmails.add(matcher.group());
-                }
-            }
-        });
-
-        System.out.println(String.join("\n",foundEmails));
+        while (matcher.find()) {
+            System.out.println(matcher.group());
+        }
     }
 }
