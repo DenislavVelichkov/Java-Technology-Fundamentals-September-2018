@@ -20,7 +20,8 @@ public class StarEnigma_05_Ver2 {
             int add = 0;
 
             for (int j = 0; j < line.length(); j++) {
-                if (line.charAt(j) == 's' || line.charAt(j) == 'S' ||
+                if (line.charAt(j) == 's' ||
+                        line.charAt(j) == 'S' ||
                         line.charAt(j) == 't' ||
                         line.charAt(j) == 'T' ||
                         line.charAt(j) == 'a' ||
@@ -28,23 +29,21 @@ public class StarEnigma_05_Ver2 {
                         line.charAt(j) == 'r' ||
                         line.charAt(j) == 'R'
                 ) {
-
                     add++;
-
-
                 }
             }
 
             StringBuilder newString = new StringBuilder();
 
             for (int j = 0; j < line.length(); j++) {
-                char c = (char) (line.charAt(j) + add);
-                newString.append(c);
+                char character = (char) (line.charAt(j) - add);
+                newString.append(character);
             }
 
             Pattern pattern = Pattern.compile
-                (".*?@([A-Za-z]+)[^@\\-!:>]*:(\\d+)[^@\\-!:>]*!([AD])![^@\\-!:>]*->(\\d+)");
+                    (".*?@([A-Za-z]+)[^@\\-!:>]*:(\\d+)[^@\\-!:>]*!([AD])![^@\\-!:>]*->(\\d+)");
             Matcher matcher = pattern.matcher(newString);
+
             if (matcher.find()) {
                 String planet = matcher.group(1);
                 String type = matcher.group(3);
@@ -54,14 +53,14 @@ public class StarEnigma_05_Ver2 {
                     destroyed.add("-> " + planet);
                 }
             }
-
-            System.out.println("Attacked planets: " + attacked.size());
-            if (!attacked.isEmpty()) {
-                System.out.println(String.join(System.lineSeparator(), attacked));
-            }
-
-            System.out.println("Destroyed planets: " + destroyed.size());
-            System.out.println(String.join(System.lineSeparator(), destroyed));
         }
+
+        System.out.println("Attacked planets: " + attacked.size());
+        if (!attacked.isEmpty()) {
+            System.out.println(String.join(System.lineSeparator(), attacked));
+        }
+
+        System.out.println("Destroyed planets: " + destroyed.size());
+        System.out.println(String.join(System.lineSeparator(), destroyed));
     }
 }

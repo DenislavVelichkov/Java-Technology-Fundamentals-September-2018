@@ -31,7 +31,6 @@ public class StarEnigma_05 {
 
             Pattern pattern = Pattern.compile
             ("(?<name>(?<=@)[A-Za-z]+)[^@\\-!:>]*|(?<population>(?<=:)[0-9]+)[^@\\-!:>]*|(?<attOrDef>(?<=!)[AD])[^@\\-!:>]*|(?<soldiers>(?<=->)[0-9]+)|");
-            /*@([a-zA-Z]+)[^@\-!:>]*:[0-9]+[^@\-!:>]*!([AD])![^@\-!:>]*->[0-9]+  Изкопах го от нета, ама пак не става*/
             Matcher matcher = pattern.matcher(tokensToBeSplit);
 
             String planetName = "";
