@@ -12,35 +12,18 @@ public class SoftUniBarIncome_04 {
 
         String line = sc.nextLine();
         double income = 0.0;
+        Pattern validateLine = Pattern.compile
+        ("([^\\|\\$%.]+)?%(?<name>[A-Z][a-z]+)%([^\\|\\$%.]+)?<(?<product>\\w+)>([^\\|\\$%.]+)?\\|(?<quantity>\\d+)\\|([^0-9\\|\\$%.]+)?(?<price>\\d+\\.?\\d+)\\$([^\\|\\$%.]+)?");
 
         while (!line.equals("end of shift")) {
-            Pattern validateLine = Pattern.compile
-            ("(?<name>%[A-Z][a-z]+%)([^\\|\\$\\%\\.]+)?(?<product><[A-Za-z0-9\\.?_-]+>)(?<quantity>([^\\|\\$\\%\\.0-9]+)?\\|[0-9\\.?]+\\|)(?<price>([^\\|\\$\\%\\.0-9]+)?([0-9\\.?]+))(\\$)");
             Matcher matcher = validateLine.matcher(line);
 
-            String name = "";
-            String product = "";
-            int quantity = 0;
-            double price = 0.0;
-            boolean flag = false;
+            if (matcher.find()) {
+                String name = matcher.group("name");
+                String product = matcher.group("product");
+                int quantity = Integer.parseInt(matcher.group("quantity"));
+                double price = Double.parseDouble(matcher.group("price"));
 
-            while (matcher.find()) {
-                flag = true;
-
-                name = Arrays.toString(matcher.group
-                ("name").split("\\%+")).trim().replaceAll("[, \\[\\]]", "");
-
-                product = Arrays.toString(matcher.group
-                ("product").split("[<>]+")).trim().replaceAll("[, \\[\\]]", "");
-
-                quantity = Integer.parseInt(Arrays.toString(matcher.group
-                ("quantity").split("([\\|\\|])|([^\\|\\$\\%\\.0-9]+)")).trim().replaceAll("[, \\[\\]]", ""));
-
-                price = Double.parseDouble(Arrays.toString(matcher.group
-                ("price").split("[^\\|\\$\\%\\.0-9]+|\\$")).trim().replaceAll("[, \\[\\]]", ""));
-            }
-
-            if (flag) {
                 income += quantity * price;
                 System.out.printf("%s: %s - %.2f%n",name, product, quantity * price);
             }
