@@ -33,6 +33,6 @@ public class PokeMon_09 {
             }
         }
 
-        System.out.printf("%TopInteger_05_Ver2%n%TopInteger_05_Ver2", pokePowerN, targetCounter);
+        System.out.printf("%d%n%d", pokePowerN, targetCounter);
     }
 }

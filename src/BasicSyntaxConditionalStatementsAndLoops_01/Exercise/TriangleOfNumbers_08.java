@@ -12,7 +12,7 @@ public class TriangleOfNumbers_08 {
 
         for (int i = 1; i <= n; i++) {
             for (int j = 0; j < i; j++) {
-                System.out.printf("%TopInteger_05_Ver2 ", i);
+                System.out.printf("%d ", i);
             }
             System.out.println();
         }

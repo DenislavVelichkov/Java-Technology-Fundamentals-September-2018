@@ -36,7 +36,8 @@ public class Snowballs_10 {
             }
         }
 
-        System.out.printf("%TopInteger_05_Ver2 : %TopInteger_05_Ver2 = %.0f (%TopInteger_05_Ver2)", snowQuantity, snowTime, snowValue, snowQuality);
+        System.out.printf("%d : %d = %.0f (%d)",
+                snowQuantity, snowTime, snowValue, snowQuality);
     }
 }
 

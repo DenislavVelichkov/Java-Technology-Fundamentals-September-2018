@@ -15,6 +15,6 @@ public class TownInfo_03 {
         int sqrKm = Integer.parseInt(reader.readLine());
 
         System.out.printf("Town %s has population of " +
-                "%TopInteger_05_Ver2 and area %TopInteger_05_Ver2 square km.",townName, population, sqrKm);
+                "%d and area %d square km.",townName, population, sqrKm);
     }
 }

@@ -29,7 +29,7 @@ public class SpiceMustFlow_08 {
         if (totSpiceExtracted < 0)
             totSpiceExtracted = 0;
 
-        System.out.printf("%TopInteger_05_Ver2%n", daysCounter);
-        System.out.printf("%TopInteger_05_Ver2", totSpiceExtracted);
+        System.out.printf("%d%n", daysCounter);
+        System.out.printf("%d", totSpiceExtracted);
     }
 }

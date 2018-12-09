@@ -11,17 +11,17 @@ public class TWP_05 {
         private String type;
         private String team;
 
-        public Player(String name, String team) {
+        Player(String name, String team) {
             this.name = name;
             this.team = team;
         }
 
-        public String getTeam() {
-            return team;
-        }
-
         public String getName() {
             return name;
+        }
+
+        public String getTeam() {
+            return team;
         }
 
         public void setName(String name) {
@@ -43,7 +43,7 @@ public class TWP_05 {
         int n = Integer.parseInt(reader.readLine());
         Map<String, List<Player>> team = new LinkedHashMap<>();
 
-        for (int i = 0; i < n; i++) {
+        while (n-- > 0) {
             String line = reader.readLine();
             String[] text = line.split("-");
             String teamLeader = text[0];
@@ -54,23 +54,30 @@ public class TWP_05 {
                 continue;
             }
 
-            team.putIfAbsent(teamName, new ArrayList<>());
             boolean playerIsPresent = false;
 
-            for (List<Player> value : team.values()) {
-                Optional<Player> isPlayerPresent =
-                        value.stream()
-                                .filter(player -> player.getType().equals(teamLeader))
+            for (Map.Entry<String, List<Player>> teamToCheck : team.entrySet()) {
+
+                Optional<Player> isPlayerCreatedATeam =
+                        teamToCheck.getValue().stream()
+                                .filter(player ->
+                                        teamToCheck.getKey().equals(
+                                                player.getTeam()) &&
+                                                player.getType().equals("leader") &&
+                                                player.getName().equals(teamLeader))
                                 .findFirst();
-                if (isPlayerPresent.isPresent()) {
+
+                if (isPlayerCreatedATeam.isPresent()) {
                     System.out.printf("%s cannot create another team!%n",
-                            isPlayerPresent.get().getName());
+                            isPlayerCreatedATeam.get().getName());
                     playerIsPresent = true;
                     break;
                 }
+
             }
 
             if (!playerIsPresent) {
+                team.putIfAbsent(teamName, new ArrayList<>());
                 Player player = new Player(teamLeader, teamName);
                 team.get(teamName).add(player);
                 player.setType("leader");
@@ -115,18 +122,21 @@ public class TWP_05 {
             }
         }
 
-        team.entrySet().stream()
+        team
+                .entrySet()
+                .stream()
                 .filter(entry -> entry.getValue().size() > 1)
                 .sorted((o1, o2) -> {
                     int result =
                             Integer.compare(o2.getValue().size(), o1.getValue().size());
-                    return result != 0 ? result : o1.getKey().compareTo(o2.getKey());
+                    return result != 0 ? result :
+                            o1.getKey().compareToIgnoreCase(o2.getKey());
                 })
                 .forEach(entry -> {
                     System.out.printf("%s%n", entry.getKey());
 
-                    Player addLeader = findTheLeader(entry);
-                    System.out.printf("- %s%n", addLeader.getName());
+                    Player leader = findTheLeader(entry);
+                    System.out.printf("- %s%n", leader.getName());
 
                     entry
                             .getValue()
@@ -140,7 +150,7 @@ public class TWP_05 {
         team.entrySet()
                 .stream()
                 .filter(entry -> entry.getValue().size() <= 1)
-                .sorted(Comparator.comparing(Map.Entry::getKey))
+                .sorted((o1, o2) -> o1.getKey().compareToIgnoreCase(o2.getKey()))
                 .forEach(k -> System.out.printf("%s%n", k.getKey()));
     }
 
