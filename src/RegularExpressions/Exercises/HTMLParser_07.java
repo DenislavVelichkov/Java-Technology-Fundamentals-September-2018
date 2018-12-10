@@ -57,6 +57,7 @@ public class HTMLParser_07 {
         int indexOfOpenTag = text.indexOf("<");
         int indexOfCloseTag = text.indexOf(">") + 1;
         String toRemove;
+
         try {
             toRemove = text.substring(indexOfOpenTag, indexOfCloseTag);
             String innerTagToReplace = "\\\\\\w{1}";
@@ -78,6 +79,7 @@ public class HTMLParser_07 {
                 break;
             }
         }
+
         return text;
     }
 }
