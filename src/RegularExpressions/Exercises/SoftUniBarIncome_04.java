@@ -12,8 +12,13 @@ public class SoftUniBarIncome_04 {
 
         String line = sc.nextLine();
         double income = 0.0;
+
         Pattern validateLine = Pattern.compile
-        ("([^\\|\\$%.]+)?%(?<name>[A-Z][a-z]+)%([^\\|\\$%.]+)?<(?<product>\\w+)>([^\\|\\$%.]+)?\\|(?<quantity>\\d+)\\|([^0-9\\|\\$%.]+)?(?<price>\\d+\\.?\\d+)\\$([^\\|\\$%.]+)?");
+        ("([^\\|\\$%.]+)?%" +
+        "(?<name>[A-Z][a-z]+)%([^\\|\\$%.]+)?<" +
+        "(?<product>\\w+)>([^\\|\\$%.]+)?\\|" +
+        "(?<quantity>\\d+)\\|([^0-9\\|\\$%.]+)?" +
+        "(?<price>\\d+\\.?\\d+)\\$([^\\|\\$%.]+)?");
 
         while (!line.equals("end of shift")) {
             Matcher matcher = validateLine.matcher(line);
