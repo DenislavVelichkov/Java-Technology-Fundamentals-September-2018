@@ -1,4 +1,4 @@
-package ExamExercises.ProgFundAdditionalRetakeExam_27October2018Part2;
+package ExamExercises.ProgFundRetakeExam_27October2018Part2;
 
 import java.util.Scanner;
 
