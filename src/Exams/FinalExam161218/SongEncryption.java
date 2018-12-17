@@ -12,25 +12,24 @@ public class SongEncryption {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         String line = reader.readLine();
-        int keyLength;
+        int keyLength = 0;
 
         while (!line.equals("end")) {
-            Pattern pattern = Pattern.compile("^([A-Z])[a-z]+\\s*([a-z'\\s]*):([A-Z]+\\s)+");
-            /*([A-Z])[a-z]+\s*([a-z'\s]*):([A-Z]+\s)+*/
-            /*(([A-Z]){1}[a-z]+)\s*([a-z'\s]*):([A-Z]+\s)+*/
+            Pattern pattern = Pattern.compile("^([A-Z])[a-z\\s']*:[A-Z\\s]*$");
             Matcher matcher = pattern.matcher(line);
             if (matcher.find()) {
                 String[] tokens = line.split(":");
+
                 String artist = tokens[0];
                 String song = tokens[1];
                 keyLength = artist.length();
 
-                String finaleResult =
+                String finalResult =
                         encrypt(artist, keyLength) +
-                        "@" +
-                        encrypt(song, keyLength);
+                                "@" +
+                                encrypt(song, keyLength);
 
-                System.out.printf("Successful encryption: %s%n", finaleResult);
+                System.out.printf("Successful encryption: %s%n", finalResult);
             } else {
                 System.out.println("Invalid input!");
             }
@@ -41,23 +40,29 @@ public class SongEncryption {
 
     private static String encrypt(String text, int length) {
         StringBuilder str = new StringBuilder();
-        char[] tempCharArray = text.toCharArray();
 
-        for (int i = 0; i < tempCharArray.length; i++) {
-            if (length + tempCharArray[i] <= 90) {
-                int temp = tempCharArray[i] + length;
-                str.append((char) temp);
-            } else {
-                int tempLenth = ((length + text.charAt(i)) - 90) + 65;
-                str.append((char) tempLenth);
+        for (int i = 0; i < text.length(); i++) {
+
+            if (text.charAt(i) == 32 || text.charAt(i) == 44) {
+                str.append(" ");
+                continue;
             }
 
-            if (length + tempCharArray[i] <= 122) {
-                int temp = tempCharArray[i] + length;
-                str.append((char) temp);
+            int temp = text.charAt(i) + length;
+            if (Character.isUpperCase(text.charAt(i))) {
+                if (temp <= 'Z') {
+                    str.append((char) temp);
+                } else {
+                    temp = (temp - 'Z') + 'A' - 1;
+                    str.append((char) temp);
+                }
             } else {
-                int tempLength = ((length + text.charAt(i)) - 122) + 97;
-                str.append((char) tempLength);
+                if (temp <= 'z') {
+                    str.append((char) temp);
+                } else {
+                    temp = (temp - 'z') + 'a' - 1;
+                    str.append((char) temp);
+                }
             }
         }
 
