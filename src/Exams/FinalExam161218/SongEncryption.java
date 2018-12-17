@@ -26,8 +26,8 @@ public class SongEncryption {
 
                 String finalResult =
                         encrypt(artist, keyLength) +
-                                "@" +
-                                encrypt(song, keyLength);
+                        "@" +
+                        encrypt(song, keyLength);
 
                 System.out.printf("Successful encryption: %s%n", finalResult);
             } else {
