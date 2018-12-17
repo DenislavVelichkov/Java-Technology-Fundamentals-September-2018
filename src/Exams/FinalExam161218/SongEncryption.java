@@ -12,12 +12,12 @@ public class SongEncryption {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         String line = reader.readLine();
-        int keyLength = 0;
+        int keyLength;
 
         while (!line.equals("end")) {
-            Pattern pattern = Pattern.compile("^([A-Z])[a-z\\s']*:[A-Z\\s]*$");
+            Pattern pattern = Pattern.compile("([A-Z])[a-z\\s']*:[A-Z\\s]*");
             Matcher matcher = pattern.matcher(line);
-            if (matcher.find()) {
+            if (matcher.matches()) {
                 String[] tokens = line.split(":");
 
                 String artist = tokens[0];
@@ -43,8 +43,11 @@ public class SongEncryption {
 
         for (int i = 0; i < text.length(); i++) {
 
-            if (text.charAt(i) == 32 || text.charAt(i) == 44) {
+            if (text.charAt(i) == 32) {
                 str.append(" ");
+                continue;
+            } else if (text.charAt(i) == '\'') {
+                str.append("'");
                 continue;
             }
 
