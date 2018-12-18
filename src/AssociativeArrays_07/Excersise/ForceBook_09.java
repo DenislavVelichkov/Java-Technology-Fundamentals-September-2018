@@ -11,11 +11,9 @@ public class ForceBook_09 {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-
         String line = reader.readLine();
         String forceUser = "";
         String forceSide = "";
-
         Map<String, ArrayList<String>> journey = new LinkedHashMap<>();
 
         while (!line.equals("Lumpawaroo")) {
@@ -41,7 +39,6 @@ public class ForceBook_09 {
                     if (entry.getValue().remove(forceUser)) {
                         break;
                     }
-                    //check and remove entry from Map
                 }
 
                 journey.get(forceSide).add(forceUser);
@@ -61,7 +58,6 @@ public class ForceBook_09 {
             } else {
                 journey.get(forceSide).add(forceUser);
             }
-
 
             line = reader.readLine();
         }
