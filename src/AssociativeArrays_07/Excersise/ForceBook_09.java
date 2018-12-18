@@ -34,9 +34,7 @@ public class ForceBook_09 {
             }
 
             boolean doesHeAExist = false;
-            if (!journey.containsKey(forceSide)) {
-                journey.put(forceSide, new ArrayList<>());
-            }
+            journey.putIfAbsent(forceSide, new ArrayList<>());
 
             if (wasThisCurrentCmd) {
                 for (Map.Entry<String, ArrayList<String>> entry : journey.entrySet()) {
@@ -60,7 +58,7 @@ public class ForceBook_09 {
             if (doesHeAExist) {
                 line = reader.readLine();
                 continue;
-            }else {
+            } else {
                 journey.get(forceSide).add(forceUser);
             }
 
