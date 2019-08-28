@@ -1,10 +1,12 @@
 # Java Technology Fundamentals - September 2018
 
+## CERTIFICATE: https://softuni.bg/certificates/details/61013/924ff038
+
 <p text-align="center">Java Tech 4.0 Module at 
 <a href="https://www.softuni.bg">SoftUni <img src="http://grozdarska.net/wp-content/uploads/2015/01/SoftUni-Logo-300x300.png" width="30" alt="software-university"></a>. Started at May 2018, ended July 2018.
 You can find all tasks and homeworks during the course in this repository.</p>
 
-##COURSE SUMMARY:
+## COURSE SUMMARY:
 * Basic Syntax, Conditional Statements and Loops
 * Basic HTML
 * Data Types and Variables
