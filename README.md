@@ -13,7 +13,7 @@ You can find all tasks and homeworks during the course in this repository.</p>
 * HTTP Basics
 * Methods / Functions
 * Problem Solving
-* Lists / _03_Arrays Advanced
+* Lists / Advanced Arrays
 * Bitwise Operations
 * Associative _03_Arrays
 * Intro to Computer Science
