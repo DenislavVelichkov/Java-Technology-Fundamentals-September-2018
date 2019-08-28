@@ -15,7 +15,7 @@ You can find all tasks and homeworks during the course in this repository.</p>
 * Problem Solving
 * Lists / Advanced Arrays
 * Bitwise Operations
-* Associative _03_Arrays
+* Associative Arrays
 * Intro to Computer Science
 * Objects and Classes
 * Database Basics
