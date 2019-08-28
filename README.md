@@ -2,14 +2,14 @@
 
 <p text-align="center">Java Tech 4.0 Module at 
 <a href="https://www.softuni.bg">SoftUni <img src="http://grozdarska.net/wp-content/uploads/2015/01/SoftUni-Logo-300x300.png" width="30" alt="software-university"></a>. Started at May 2018, ended July 2018.
-you can find all tasks and homeworks during the course.</p>
+You can find all tasks and homeworks during the course.</p>
 
 ##COURSE SUMMERY:
 * Basic Syntax, Conditional Statements and Loops
 * Basic HTML
 * Data Types and Variables
 * Basic CSS
-* _03_Arrays
+* Arrays
 * HTTP Basics
 * Methods / Functions
 * Problem Solving
